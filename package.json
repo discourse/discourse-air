@@ -1,0 +1,7 @@
+{
+  "author": "Jordan Vidrine",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  }
+}
