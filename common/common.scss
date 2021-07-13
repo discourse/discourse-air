@@ -251,7 +251,7 @@ html body #main-outlet {
   }
   tbody {
     display: contents;
-    tr {
+    tr:not(.topic-list-item-separator) {
       width: 100%;
       display: flex;
       margin-bottom: .5em;
