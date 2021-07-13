@@ -251,6 +251,14 @@ html body #main-outlet {
   }
   tbody {
     display: contents;
+    tr.topic-list-item-separator {
+      width: 100%;
+      margin: 0.75em 0;
+      display: flex;
+      td {
+        width: 100%;
+      }
+    }
     tr:not(.topic-list-item-separator) {
       width: 100%;
       display: flex;
