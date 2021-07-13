@@ -48,6 +48,10 @@
 }
 
 // Main customizations
+.alert {
+  margin: 1em 0;
+}
+
 .topic-list th, .topic-list td {
   padding: 15px 5px;
 }
@@ -256,7 +260,7 @@ html body #main-outlet {
       margin: 0.75em 0;
       display: flex;
       td {
-        width: 100%;
+        width: 100%;git
       }
     }
     tr:not(.topic-list-item-separator) {
