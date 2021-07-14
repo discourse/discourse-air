@@ -4,10 +4,10 @@
   max-width: unset;
   color: var(--secondary);
   h1 {
-    font-size: 4em;
+    font-size: 4em !important;
   }
   p {
-    font-size: 1.25em;
+    font-size: 1.25em !important;
     font-weight: bold;
     margin-bottom: 1em;
   }
@@ -60,9 +60,31 @@
   padding: 15px 5px;
 }
 
-.discourse-tag {
+.badge-wrapper.box {
   border-radius: 0.25em;
-  padding: 0.25em 0.35em;
+  overflow: hidden;
+}
+
+.badge-wrapper.bullet {
+  .badge-category-bg {
+    border-radius: 0.125em;
+  }
+  .badge-category-parent-bg {
+    border-top-left-radius: 0.125em;
+    border-bottom-left-radius: 0.125em;
+    + .badge-category-bg {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0.125em;
+      border-bottom-right-radius: 0.125em;
+    }
+  }
+}
+
+.discourse-tag {
+  font-size: $font-down-1;
+  border-radius: 0.25em;
+  padding: 0.15em 0.25em 0.15em 0.35em;
   background-color: var(--primary-low);
   color: var(--primary) !important;
   &:hover {
@@ -76,8 +98,8 @@
   margin-left: unset;
 }
 
-#navigation-bar li:first-of-type {
-  display: none;
+.topic-list .link-bottom-line .discourse-tag.simple:after, .topic-list .link-bottom-line .discourse-tag.box {
+  margin-right: 0px;
 }
 
 #site-text-logo {
@@ -232,13 +254,21 @@ html body #main-outlet {
 }
 
 // Topic List
+
+@keyframes background-fade-highlight {
+  0% {
+    background-color: var(--highlight-low);
+  }
+  100% {
+    background-color: var(--secondary);
+  }
+}
+
 .full-width .contents .topic-list {
   border-collapse: separate;
   border-spacing: 0 0.25em;
   display: contents;
   thead {
-    // display: none !important;
-    // styles if I decide to show the table header
     tr {
       display: flex;
       border-bottom: none;
