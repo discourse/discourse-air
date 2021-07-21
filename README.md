@@ -55,7 +55,7 @@ I hope you enjoy!
 
 ||||
 |-|-|-|
-| :eyeglasses:|**Preview**| discourse.jordanvidrine.com |
+| :eyeglasses:|**Preview**| https://discourse.jordanvidrine.com/ |
 | :hammer_and_wrench:|**Repository**| https://github.com/discourse/discourse-air.git |
 | :question:|**Install Guide**|[How to install a theme or theme component](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682)|
 | :open_book:|**New to Discourse Themes?**| [Beginner’s guide to using Discourse Themes](https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966)
