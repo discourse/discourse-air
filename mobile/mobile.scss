@@ -8,7 +8,7 @@
   }
 }
 
-html body:not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page) #main-outlet,
+html body:not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page) #main-outlet,
  {
   width: calc(100% - 1em);
   padding: 0em 0.5em 1em 0.5em;
@@ -16,6 +16,7 @@ html body:not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archety
   background-color: transparent;
 }
 
+html body.static-faq #main-outlet
 html body.tags-page #main-outlet,
 html body.badges-page #main-outlet,
 html body.archetype-regular #main-outlet,
