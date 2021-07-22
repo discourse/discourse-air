@@ -33,6 +33,10 @@ html body.staff:not(.navigation-topics) #main-outlet {
   margin-bottom: 0px;
 }
 
+.container.posts > .row {
+  width: calc(100% - 3em);
+}
+
 html body.archetype-private_message .container.posts {
   grid-template-columns: 50% 50%;
 }
