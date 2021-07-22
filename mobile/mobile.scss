@@ -34,7 +34,7 @@ html body.staff:not(.navigation-topics) #main-outlet {
 }
 
 .container.posts > .row {
-  width: calc(100% - 3em);
+  max-width: calc(100% - 25px);
 }
 
 html body.archetype-private_message .container.posts {
