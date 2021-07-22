@@ -302,15 +302,31 @@ html body #main-outlet {
       display: flex;
       margin-bottom: .5em;
       background-color: var(--secondary);
-      border: 1px solid rgba(var(--primary-rgb),0.10);
+      border: 1px solid rgba(var(--primary-rgb),0.20);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0,0,0,0.05);
+      &.visited {
+        border: 1px solid rgba(var(--primary-rgb),0.10);
+        .discourse-tag {
+          opacity: 0.75;
+        }
+        &:hover {
+          border: 1px solid rgba(var(--primary-rgb),0.25);
+          .discourse-tag {
+            opacity: 1;
+          }
+        }
+      }
       &:hover {
         background-color: var(--secondary);
         box-shadow: 0px 0px 12px rgba(0,0,0,0.10);
-        border: 1px solid rgba(var(--primary-rgb),0.25);
+        border: 1px solid rgba(var(--primary-rgb),0.30);
+        a.title:not(.badge-notification),
+        a.topic-excerpt {
+          color: var(--primary) !important;
+        }
       }
       td.main-link {
         width: 63%;
@@ -364,12 +380,6 @@ td.num.views, th.num.views {
 
 .full-width .contents .topic-list {
   .topic-list-item {
-    &.visited {
-      a.title:not(.badge-notification),
-      a.topic-excerpt {
-        color: var(--primary) !important;
-      }
-    }
     .main-link {
       min-height: 100%;
       min-height: 100%;
