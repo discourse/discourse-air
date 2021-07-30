@@ -16,6 +16,10 @@ html body:not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regu
   background-color: transparent;
 }
 
+.container.posts {
+  grid-template-columns: 50% 50%;
+}
+
 html body.static-faq #main-outlet
 html body.tags-page #main-outlet,
 html body.badges-page #main-outlet,
@@ -96,38 +100,4 @@ ol.category-breadcrumb {
   background-color: var(--secondary);
   margin-left: -0.5em;
   padding: 0 0.5em;
-}
-
-// category boxes mobile
-
-.custom-category-boxes {
-  grid-gap: 1em !important;
-}
-
-.custom-category-boxes .category-box .category-box-inner {
-  column-gap: 1em !important;
-}
-
-.custom-category-boxes .category-box .category-box-inner .category-logo.no-logo-present {
-  height: 100% !important;
-}
-
-.custom-category-boxes .description {
-  max-height: unset !important;
-}
-
-.custom-category-boxes .category-box .category-box-inner .category-details {
-  padding: 1em;
-}
-
-.groups-header {
-  margin: 1em 0 0 0;
-}
-
-.groups-header-filters-name {
-  display: none !important;
-}
-
-.groups-boxes {
-  grid-template-columns: 1fr !important;
 }
