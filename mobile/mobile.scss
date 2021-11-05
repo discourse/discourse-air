@@ -8,16 +8,13 @@
   }
 }
 
-html body:not(.static-privacy):not(.about-page):not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page) #main-outlet,
- {
+html
+  body:not(.static-privacy):not(.about-page):not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page)
+  #main-outlet {
   width: calc(100% - 1em);
   padding: 0em 0.5em 1em 0.5em;
   box-shadow: none;
   background-color: transparent;
-}
-
-.container.posts {
-  grid-template-columns: 50% 50%;
 }
 
 html body.static-privacy #main-outlet,
@@ -43,19 +40,19 @@ html body.staff:not(.navigation-topics) #main-outlet {
   max-width: 100%;
 }
 
-html body.archetype-private_message .container.posts {
-  grid-template-columns: 50% 50%;
-}
-
-.navigation-categories .navigation-container, .categories-list .navigation-container {
+.navigation-categories .navigation-container,
+.categories-list .navigation-container {
   border-bottom: 0px !important;
 }
 
-body.category .category-breadcrumb .select-kit-header, #navigation-bar, .navigation-controls {
+body.category .category-breadcrumb .select-kit-header,
+#navigation-bar,
+.navigation-controls {
   margin-bottom: 0.5em !important;
 }
 
-body.category .navigation-categories .list-container, .categories-list .list-container {
+body.category .navigation-categories .list-container,
+.categories-list .list-container {
   padding-top: 1em !important;
 }
 
@@ -68,7 +65,8 @@ ol.category-breadcrumb {
     border-radius: 8px;
     border: none;
     background-color: var(--secondary);
-    a:hover, a:focus {
+    a:hover,
+    a:focus {
       color: var(--primary);
       background-color: var(--secondary);
     }
@@ -76,11 +74,12 @@ ol.category-breadcrumb {
   .drop {
     top: calc(100% + 0.5em);
     border-radius: 8px;
-    box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   }
 }
 
-.topic-list th, .topic-list td {
+.topic-list th,
+.topic-list td {
   padding: 1em;
   max-width: unset;
 }
