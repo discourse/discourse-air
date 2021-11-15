@@ -4,11 +4,11 @@
   max-width: unset;
   color: var(--secondary);
   h1 {
-    color: #3E416D;
+    color: var(--primary);
     font-size: 4em !important;
   }
   p {
-    color: #3E416D;
+    color: var(--primary);
     font-size: 1.25em !important;
     font-weight: bold;
     margin-bottom: 1em;
