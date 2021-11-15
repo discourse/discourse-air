@@ -383,6 +383,28 @@ td.num.views, th.num.views {
   }
 }
 
+// CUSTOM
+.contents .topic-list {
+  .posters {
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+    }
+    a:first-of-type {
+      .avatar {
+        margin-right: 0;
+      }
+    }
+    a:not(:first-of-type) {
+      margin-left: -22px;
+      .avatar {
+        border: 3px solid var(--secondary);
+      }
+    }
+  }
+}
+
 .full-width .contents .topic-list {
   .topic-list-item {
     .main-link {
@@ -405,24 +427,6 @@ td.num.views, th.num.views {
           font-size: $font-down-3;
           display: flex;
           align-items: center;
-        }
-      }
-    }
-    .posters {
-      .avatar {
-        width: 40px;
-        height: 40px;
-        border-radius: 8px;
-      }
-      a:first-of-type {
-        .avatar {
-          margin-right: 0;
-        }
-      }
-      a:not(:first-of-type) {
-        margin-left: -22px;
-        .avatar {
-          border: 3px solid var(--secondary);
         }
       }
     }
