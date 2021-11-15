@@ -84,6 +84,14 @@ ol.category-breadcrumb {
   max-width: unset;
 }
 
+// CUSTOM
+.topic-list .topic-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .custom-search-banner-wrap .search-context {
   top: 3em !important;
 }
