@@ -1,3 +1,48 @@
+//CUSTOM
+html {
+    @font-face {
+    font-family: FibraOne;
+    font-weight: normal;
+    font-style: normal;
+    src: url(../public/fonts/FibraOneRegular.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: FibraOne;
+    font-weight: normal;
+    font-style: italic;
+    src: url(https://dev.getmimo.com/fonts/FibraOneRegular-Italic.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: FibraOne;
+    src: url(https://dev.getmimo.com/fonts/FibraOneSemiBold.otf) format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: FibraOne;
+    src: url(https://dev.getmimo.com/fonts/FibraOneSemiBold-Italic.otf) format('opentype');
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: FibraOne;
+    src: url(https://dev.getmimo.com/fonts/FibraOneBold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: FibraOne;
+    src: url(https://dev.getmimo.com/fonts/FibraOneBold-Italic.otf) format('opentype');
+    font-weight: 700;
+    font-style: italic;
+  }
+}
+
 // CUSTOM
 .search-input {
   border-radius: 8px;
