@@ -78,9 +78,9 @@ ol.category-breadcrumb {
   }
 }
 
-.topic-list th,
-.topic-list td {
-  padding: 1em;
+.topic-list .topic-list-data {
+  padding: 1em 1em 0 1em;
+  width: calc(100% - 2em);
   max-width: unset;
 }
 
