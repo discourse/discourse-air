@@ -21,5 +21,12 @@
       "love": "F05A6E"
     }
   },
-  "components": ["https://github.com/jordanvidrine/discourse-category-group-boxes.git","https://github.com/discourse/discourse-color-scheme-toggle.git","https://github.com/discourse/discourse-loading-slider.git","https://github.com/discourse/discourse-clickable-topic.git","https://github.com/discourse/discourse-search-banner.git"]
+  "components": [
+    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
+    "https://github.com/discourse/discourse-color-scheme-toggle.git",
+    "https://github.com/discourse/discourse-loading-slider.git",
+    "https://github.com/discourse/discourse-clickable-topic.git",
+    "https://github.com/discourse/discourse-search-banner.git",
+    "https://github.com/discourse/discourse-mobile-op-avatar-component.git"
+  ]
 }
