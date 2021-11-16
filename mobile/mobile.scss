@@ -91,7 +91,7 @@ ol.category-breadcrumb {
 
 // CUSTOM
 .topic-list .topic-excerpt {
-  display: -webkit-box;
+  display: -webkit-inline-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
