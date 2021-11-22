@@ -1,6 +1,6 @@
 // CUSTOM
-:root {
-   @font-face {
+body {
+  @font-face {
     font-family: FibraOne;
     font-weight: normal;
     font-style: normal;
@@ -41,7 +41,10 @@
     font-weight: 700;
     font-style: italic;
   }
-   
+}
+
+// CUSTOM
+:root {
   --font-family: 'Fibra One', sans-serif;;
   --heading-font-family: 'Fibra One', sans-serif;
 }
