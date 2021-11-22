@@ -1,46 +1,44 @@
 // CUSTOM
-body {
-  @font-face {
-    font-family: FibraOne;
-    font-weight: normal;
-    font-style: normal;
-    src: url($fibra-one-regular) format('opentype');
-  }
+@font-face {
+  font-family: FibraOne;
+  font-weight: normal;
+  font-style: normal;
+  src: url($fibra-one-regular) format('opentype');
+}
 
-  @font-face {
-    font-family: FibraOne;
-    font-weight: normal;
-    font-style: italic;
-    src: url($fibra-one-regular-italic) format('opentype');
-  }
+@font-face {
+  font-family: FibraOne;
+  font-weight: normal;
+  font-style: italic;
+  src: url($fibra-one-regular-italic) format('opentype');
+}
 
-  @font-face {
-    font-family: FibraOne;
-    src: url($fibra-one-semibold) format('opentype');
-    font-weight: 600;
-    font-style: normal;
-  }
+@font-face {
+  font-family: FibraOne;
+  src: url($fibra-one-semibold) format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: FibraOne;
-    src: url($fibra-one-semibold-italic) format('opentype');
-    font-weight: 600;
-    font-style: italic;
-  }
+@font-face {
+  font-family: FibraOne;
+  src: url($fibra-one-semibold-italic) format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
 
-  @font-face {
-    font-family: FibraOne;
-    src: url($fibra-one-bold) format('opentype');
-    font-weight: 700;
-    font-style: normal;
-  }
+@font-face {
+  font-family: FibraOne;
+  src: url($fibra-one-bold) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: FibraOne;
-    src: url($fibra-one-italic) format('opentype');
-    font-weight: 700;
-    font-style: italic;
-  }
+@font-face {
+  font-family: FibraOne;
+  src: url($fibra-one-italic) format('opentype');
+  font-weight: 700;
+  font-style: italic;
 }
 
 // CUSTOM
