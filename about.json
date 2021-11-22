@@ -6,7 +6,12 @@
   },
   "name": "Mimo Theme",
   "assets": {
-    "fibra-one-regular": "assets/FibraOneRegular.otf"
+    "fibra-one-regular": "assets/FibraOneRegular.otf",
+    "fibra-one-regular-italic": "assets/FibraOneRegular-Italic.otf",
+    "fibra-one-semibold": "assets/FibraOneSemiBold.otf",
+    "fibra-one-semibold-italic": "assets/FibraOneSemiBold-Italic.otf",
+    "fibra-one-bold": "assets/FibraOneBold.otf",
+    "fibra-one-italic": "assets/FibraOneBold-Italic.otf"
   },
   "color_schemes": {
     "mimo": {

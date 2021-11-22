@@ -11,33 +11,33 @@ body {
     font-family: FibraOne;
     font-weight: normal;
     font-style: italic;
-    src: url(https://dev.getmimo.com/fonts/FibraOneRegular-Italic.otf) format('opentype');
+    src: url($fibra-one-regular-italic) format('opentype');
   }
 
   @font-face {
     font-family: FibraOne;
-    src: url(https://dev.getmimo.com/fonts/FibraOneSemiBold.otf) format('opentype');
+    src: url($fibra-one-regular-semibold) format('opentype');
     font-weight: 600;
     font-style: normal;
   }
 
   @font-face {
     font-family: FibraOne;
-    src: url(https://dev.getmimo.com/fonts/FibraOneSemiBold-Italic.otf) format('opentype');
+    src: url($fibra-one-semibold-italic) format('opentype');
     font-weight: 600;
     font-style: italic;
   }
 
   @font-face {
     font-family: FibraOne;
-    src: url(https://dev.getmimo.com/fonts/FibraOneBold.otf) format('opentype');
+    src: url($fibra-one-bold) format('opentype');
     font-weight: 700;
     font-style: normal;
   }
 
   @font-face {
     font-family: FibraOne;
-    src: url(https://dev.getmimo.com/fonts/FibraOneBold-Italic.otf) format('opentype');
+    src: url($fibra-one-italic) format('opentype');
     font-weight: 700;
     font-style: italic;
   }
