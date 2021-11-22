@@ -1,12 +1,13 @@
 {
   "about_url": null,
   "license_url": null,
-  "assets": {
-  },
   "modifiers": {
     "serialize_topic_excerpts": true
   },
   "name": "Mimo Theme",
+  "assets": {
+    "fibra-one-regular": "assets/FibraOneRegular.otf"
+  },
   "color_schemes": {
     "mimo": {
       "primary": "3E416D",
