@@ -100,14 +100,22 @@
       color: var(--primary);
     }
   }
+  .search-menu .search-input {
+    border-color: var(--tertiary-hover);
+    outline: 1px solid var(--tertiary-hover);
+  }
   .results {
-    top: 28px;
+    top: 43px;
     border-radius: 0.25em;
   }
   .search-context {
     top: 3.25em;
     right: 1em;
   }
+}
+
+.search-input {
+  border-radius: 0.25em;
 }
 
 .display-search-banner {
@@ -332,36 +340,36 @@ html body #main-outlet {
 .full-width .contents .topic-list {
   border-collapse: separate;
   display: contents;
-  thead {
+  .topic-list-header {
     tr {
       display: flex;
       border-bottom: none;
     }
     display: contents;
-    th.default {
+    .topic-list-data.default {
       width: 63%;
     }
-    th.posters {
+    .topic-list-data.posters {
       width: 7%;
     }
-    th.posts {
+    .topic-list-data.posts {
       width: 15%;
     }
-    th.activity {
+    .topic-list-data.activity {
       width: 15%;
     }
   }
-  tbody {
+  .topic-list-body {
     display: contents;
-    tr.topic-list-item-separator {
+    .topic-list-item-separator {
       width: 100%;
       margin: 0.75em 0;
       display: flex;
-      td {
+      .topic-list-data {
         width: 100%;
       }
     }
-    tr:not(.topic-list-item-separator) {
+    .topic-list-item {
       width: 100%;
       display: flex;
       margin-bottom: .5em;
@@ -392,11 +400,11 @@ html body #main-outlet {
           color: var(--primary) !important;
         }
       }
-      td.main-link {
+      .topic-list-data.main-link {
         width: 63%;
         order: 2;
       }
-      td.posters {
+      .topic-list-data.posters {
         width: 7%;
         order: 1;
         height: auto;
@@ -407,14 +415,14 @@ html body #main-outlet {
           display: none
         }
       }
-      td.posts {
+      .topic-list-data.posts {
         width: 15%;
         order: 3;
         display: flex;
         justify-content: center;
         align-items: center;
       }
-      td.age {
+      .topic-list-data.age {
         width: 15%;
         order: 4;
         display: flex;
@@ -425,7 +433,7 @@ html body #main-outlet {
   }
 }
 
-td.num.views, th.num.views {
+.topic-list-data.num.views {
   display: none;
 }
 
