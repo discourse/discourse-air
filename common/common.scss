@@ -71,6 +71,10 @@
   display: none;
 }
 
+.container.posts>.row {
+  max-width: calc( 100vw - 20px);
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
