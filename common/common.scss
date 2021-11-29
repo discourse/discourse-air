@@ -48,10 +48,16 @@
 }
 
 // CUSTOM
-.search-input {
-  border-radius: 8px;
-  #search-term { 
+.custom-search-banner {
+  h1, p {
+    display: none;
+  }
+
+  .search-input {
     border-radius: 8px;
+    #search-term { 
+      border-radius: 8px;
+    }
   }
 }
 
