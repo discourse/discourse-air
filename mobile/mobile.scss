@@ -38,7 +38,7 @@ html body.staff:not(.navigation-topics) #main-outlet {
 }
 
 .container.posts > .row {
-  max-width: 100%;
+  max-width: calc(100vw - 1.5em);
 }
 
 .navigation-categories .navigation-container,
