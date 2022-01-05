@@ -19,14 +19,14 @@
     border-radius: 0.25em;
     min-height: 40px;
     &:focus {
-      outline: 3px solid rgba(var(--primary-rgb),.35);
+      outline: 3px solid rgba(var(--primary-rgb), 0.35);
     }
   }
   .widget-link.show-help {
-    color: rgba(var(--primary-rgb),0.75);
+    color: rgba(var(--primary-rgb), 0.75);
     border-radius: 0.5em;
     padding: 0.5em;
-    background-color: rgba(var(--secondary-rgb),0.25);
+    background-color: rgba(var(--secondary-rgb), 0.25);
     &:hover {
       color: var(--primary);
     }
@@ -64,7 +64,8 @@
   display: none;
 }
 
-.topic-list th, .topic-list td {
+.topic-list th,
+.topic-list td {
   padding: 15px 5px;
 }
 
@@ -101,12 +102,15 @@
   }
 }
 
-.discourse-tags .discourse-tag.simple:not(:last-child)::after, .list-tags .discourse-tag.simple:not(:last-child)::after, .search-category .discourse-tag.simple:not(:last-child)::after {
+.discourse-tags .discourse-tag.simple:not(:last-child)::after,
+.list-tags .discourse-tag.simple:not(:last-child)::after,
+.search-category .discourse-tag.simple:not(:last-child)::after {
   content: "";
   margin-left: unset;
 }
 
-.topic-list .link-bottom-line .discourse-tag.simple:after, .topic-list .link-bottom-line .discourse-tag.box {
+.topic-list .link-bottom-line .discourse-tag.simple:after,
+.topic-list .link-bottom-line .discourse-tag.box {
   margin-right: 0px;
 }
 
@@ -143,7 +147,7 @@ div.ac-wrap {
   border-radius: 4px;
 }
 .d-header {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.06);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
 .d-header-icons .d-icon {
@@ -184,7 +188,7 @@ div.ac-wrap {
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
-  background-color: rgba(var(--tertiary-rgb),0.5);
+  background-color: rgba(var(--tertiary-rgb), 0.5);
 }
 
 .btn:not(.themes-tab):not(.components-tab),
@@ -213,13 +217,20 @@ div.ac-wrap {
 
 // graceful ish style
 @mixin box-shadow($value: 0px) {
-  box-shadow: 0 24px 40px rgba(0,0,0,.07),0 10.8529px 24.1177px rgba(0,0,0,.0456112),0 4.50776px 10.0172px rgba(0,0,0,.035),0 1.63037px 3.62304px rgba(0,0,0,.0243888);
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
+    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
+    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
+    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
 }
 
 html {
   body {
-    background: linear-gradient(0deg, rgba(var(--primary-rgb),0.075) 0%, rgba(var(--primary-rgb),0.075) 100%),
-    linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+    background: linear-gradient(
+        0deg,
+        rgba(var(--primary-rgb), 0.075) 0%,
+        rgba(var(--primary-rgb), 0.075) 100%
+      ),
+      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
   .background-container {
     position: fixed;
@@ -227,7 +238,11 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(90deg, var(--tertiary-hover) 0%, var(--tertiary) 100%); 
+    background: linear-gradient(
+      90deg,
+      var(--tertiary-hover) 0%,
+      var(--tertiary) 100%
+    );
     clip-path: ellipse(148% 70% at 91% -14%);
   }
 }
@@ -308,20 +323,20 @@ html body #main-outlet {
     .topic-list-item {
       width: 100%;
       display: flex;
-      margin-bottom: .5em;
+      margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 1px solid rgba(var(--primary-rgb),0.20);
+      border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
-      box-shadow: 0px 0px 8px rgba(0,0,0,0.05);
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb),0.10);
+        border: 1px solid rgba(var(--primary-rgb), 0.1);
         .discourse-tag {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px solid rgba(var(--primary-rgb),0.25);
+          border: 1px solid rgba(var(--primary-rgb), 0.25);
           .discourse-tag {
             opacity: 1;
           }
@@ -329,8 +344,8 @@ html body #main-outlet {
       }
       &:hover {
         background-color: var(--secondary);
-        box-shadow: 0px 0px 12px rgba(0,0,0,0.10);
-        border: 1px solid rgba(var(--primary-rgb),0.30);
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(var(--primary-rgb), 0.3);
         a.title:not(.badge-notification),
         a.topic-excerpt {
           color: var(--primary) !important;
@@ -348,7 +363,7 @@ html body #main-outlet {
         justify-content: center;
         align-items: center;
         a:not(:first-of-type) {
-          display: none
+          display: none;
         }
       }
       .topic-list-data.posts {
@@ -429,9 +444,10 @@ html body #main-outlet {
         }
       }
     }
-    .posts-map, .num.age.activity {
-      a { 
-        padding: 0 
+    .posts-map,
+    .num.age.activity {
+      a {
+        padding: 0;
       }
     }
     .posts-map {
@@ -464,7 +480,10 @@ html body #main-outlet {
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
-  box-shadow: 0 24px 40px rgba(0,0,0,0.07),0 10.8529px 24.1177px rgba(0,0,0,0.0456112),0 4.50776px 10.0172px rgba(0,0,0,0.035),0 1.63037px 3.62304px rgba(0,0,0,0.0243888);
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
+    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
+    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
+    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
   z-index: 1;
   position: relative;
 }
@@ -474,7 +493,11 @@ html body #main-outlet {
     display: none;
   }
   &::before {
-    background: linear-gradient(90deg, var(--tertiary-hover) 0%, var(--tertiary) 100%);
+    background: linear-gradient(
+      90deg,
+      var(--tertiary-hover) 0%,
+      var(--tertiary) 100%
+    );
     clip-path: ellipse(148% 70% at 91% -14%);
     content: "";
     width: 100%;
@@ -483,4 +506,9 @@ html body #main-outlet {
     position: fixed;
     z-index: 0;
   }
+}
+
+.quote-button {
+  background-color: var(--primary-low-mid);
+  border-radius: 0.5em;
 }
