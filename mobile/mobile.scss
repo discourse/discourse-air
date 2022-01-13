@@ -1,5 +1,6 @@
 // CUSTOM
-.user-pms-link, .user-preferences-link {
+.user-pms-link,
+.user-preferences-link {
   display: none !important;
 }
 
@@ -86,7 +87,7 @@ ol.category-breadcrumb {
 }
 
 .topic-list .topic-list-data {
-  padding: 1em 1em 0 1em;
+  padding: 1em;
   width: calc(100% - 2em);
   max-width: unset;
 }
