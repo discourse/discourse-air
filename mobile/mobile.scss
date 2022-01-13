@@ -90,7 +90,11 @@ ol.category-breadcrumb {
   padding: 1em; // CUSTOM
   width: calc(100% - 2em);
   max-width: unset;
-  justify-content: unset; // CUSTOM
+}
+
+// CUSTOM
+.topic-list-data.posts {
+  justify-content: unset;
 }
 
 // CUSTOM
