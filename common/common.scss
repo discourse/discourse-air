@@ -191,7 +191,7 @@
 }
 
 #site-text-logo {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .mobile-view {
@@ -223,9 +223,6 @@ div.ac-wrap {
   // CUSTOM
   background-color: var(--primary);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.06);
-  title {
-    color: var(--secondary);
-  }
 }
 
 .d-header-icons .d-icon {
