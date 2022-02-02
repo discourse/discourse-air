@@ -1,0 +1,21 @@
+.has-full-page-chat #main-outlet.wrap {
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding-bottom: 0px !important;
+  .full-page-chat {
+    grid-template-rows: calc(var(--full-page-chat-height) - 30px);
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .has-full-page-chat:not(.discourse-sidebar) #main-outlet.wrap {
+    max-width: 100% !important;
+    width: 100% !important;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    .full-page-chat {
+      grid-template-rows: var(--full-page-chat-height);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+html
+  body.has-full-page-chat
+  #main-outlet.wrap {
+  width: 100% !important;
+  padding: 0 !important;
+  background-color: var(--secondary) !important;
+}
+
+html body.chat-enabled #main-outlet {
+  width: 100% !important;
+  padding: 0 !important;
+  background-color: var(--secondary) !important;
+  .chat-channels {
+    height: var(--full-page-chat-height);
+  }
+}
