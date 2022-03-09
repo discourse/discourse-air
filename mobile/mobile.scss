@@ -11,7 +11,7 @@
 }
 
 html
-  body:not(.static-tos):not(.static-faq):not(.static-privacy):not(.about-page):not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page)
+  body:not(.static-tos):not(.static-faq):not(.static-privacy):not(.about-page):not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page):not(.archetype-banner)
   #main-outlet {
   width: calc(100% - 1em);
   padding: 0em 0.5em 1em 0.5em;
@@ -25,6 +25,7 @@ html body.about-page #main-outlet,
 html body.static-faq #main-outlet,
 html body.tags-page #main-outlet,
 html body.badges-page #main-outlet,
+html body.archetype-banner #main-outlet,
 html body.archetype-regular #main-outlet,
 html body.archetype-private_message #main-outlet,
 html body.admin-interface #main-outlet,
