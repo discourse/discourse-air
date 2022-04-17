@@ -367,7 +367,7 @@ html body #main-outlet {
         display: flex;
         justify-content: center;
         align-items: center;
-        a:not(:first-of-type) {
+        a:not(.latest) {
           display: none;
         }
       }
@@ -393,7 +393,7 @@ html body #main-outlet {
   display: none;
 }
 
-.full-width .contents .topic-list .topic-list-item .posters a:first-of-type {
+.full-width .contents .topic-list .topic-list-item .posters a.latest {
   margin-right: 4px;
   width: 100%;
   height: 100%;
@@ -437,12 +437,12 @@ html body #main-outlet {
         height: 40px;
         border-radius: 8px;
       }
-      a:first-of-type {
+      a.latest {
         .avatar {
           margin-right: 0;
         }
       }
-      a:not(:first-of-type) {
+      a:not(.latest) {
         margin-left: -22px;
         .avatar {
           border: 3px solid var(--secondary);
