@@ -6,32 +6,19 @@
   "modifiers": {
     "serialize_topic_excerpts": true
   },
-  "name": "Air Theme",
+  "name": "Alongside Discourse Theme",
   "color_schemes": {
     "air-light": {
-      "primary": "1c1c1c",
-      "secondary": "F9FCFF",
-      "tertiary": "3877e5",
-      "quaternary": "7E8B93",
-      "header_background": "F9FCFF",
-      "header_primary": "122b43",
-      "highlight": "E6CB37",
-      "danger": "D05454",
-      "success": "71BD9F",
-      "love": "C16AD7"
+      "primary": "f5f5f7",
+      "secondary": "0f1014",
+      "tertiary": "5e65da",
+      "quaternary": "797fe0",
+      "header_background": "0f1014",
+      "header_primary": "eff0fb",
+      "highlight": "5e65da",
+      "danger": "f36565",
+      "success": "74c660",
+      "love": "5e65da"
     },
-    "air-dark": {
-      "primary": "E0E0E0",
-      "secondary": "2D2D2D",
-      "tertiary": "9A5CFD",
-      "quaternary": "71bd9f",
-      "header_background": "202020",
-      "header_primary": "E0E0E0",
-      "highlight": "9A5CFD",
-      "danger": "D05454",
-      "success": "71BD9F",
-      "love": "C16AD7"
-    }
-  },
   "components": ["https://github.com/jordanvidrine/discourse-category-group-boxes.git","https://github.com/discourse/discourse-color-scheme-toggle.git","https://github.com/discourse/discourse-loading-slider.git","https://github.com/discourse/discourse-clickable-topic.git","https://github.com/discourse/discourse-search-banner.git"]
 }
