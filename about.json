@@ -1,37 +1,41 @@
 {
+  "name": "Air Theme",
   "about_url": null,
   "license_url": null,
-  "assets": {
-  },
+  "components": [
+    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
+    "https://github.com/discourse/discourse-color-scheme-toggle.git",
+    "https://github.com/discourse/discourse-loading-slider.git",
+    "https://github.com/discourse/discourse-clickable-topic.git",
+    "https://github.com/discourse/discourse-search-banner.git"
+  ],
   "modifiers": {
     "serialize_topic_excerpts": true
   },
-  "name": "Air Theme",
   "color_schemes": {
     "air-light": {
       "primary": "1c1c1c",
-      "secondary": "F9FCFF",
+      "secondary": "f9fcff",
       "tertiary": "3877e5",
-      "quaternary": "7E8B93",
-      "header_background": "F9FCFF",
+      "quaternary": "7e8b93",
+      "header_background": "f9fcff",
       "header_primary": "122b43",
-      "highlight": "E6CB37",
-      "danger": "D05454",
-      "success": "71BD9F",
-      "love": "C16AD7"
+      "highlight": "e6cb37",
+      "danger": "d05454",
+      "success": "71bd9f",
+      "love": "c16ad7"
     },
     "air-dark": {
-      "primary": "E0E0E0",
-      "secondary": "2D2D2D",
-      "tertiary": "9A5CFD",
+      "primary": "e0e0e0",
+      "secondary": "2d2d2d",
+      "tertiary": "9a5cfd",
       "quaternary": "71bd9f",
       "header_background": "202020",
-      "header_primary": "E0E0E0",
-      "highlight": "9A5CFD",
-      "danger": "D05454",
-      "success": "71BD9F",
-      "love": "C16AD7"
+      "header_primary": "e0e0e0",
+      "highlight": "9a5cfd",
+      "danger": "d05454",
+      "success": "71bd9f",
+      "love": "c16ad7"
     }
-  },
-  "components": ["https://github.com/jordanvidrine/discourse-category-group-boxes.git","https://github.com/discourse/discourse-color-scheme-toggle.git","https://github.com/discourse/discourse-loading-slider.git","https://github.com/discourse/discourse-clickable-topic.git","https://github.com/discourse/discourse-search-banner.git"]
+  }
 }
