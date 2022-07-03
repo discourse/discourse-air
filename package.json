@@ -1,7 +1,10 @@
 {
+  "name": "discourse-air",
+  "version": "1.0.0",
+  "repository": "https://github.com/discourse/discourse-air",
   "author": "Jordan Vidrine",
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "devDependencies": {
-    "eslint-config-discourse": "latest"
+    "eslint-config-discourse": "^3.2.0"
   }
 }
