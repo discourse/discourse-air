@@ -1,13 +1,29 @@
+html body.has-sidebar-page.has-full-page-chat {
+  #main-outlet-wrapper {
+    gap: 2em;
+  }
+  #main-outlet {
+    padding-bottom: 0 !important;
+  }
+}
+
+.full-page-chat {
+  border: none !important;
+}
+
 .has-full-page-chat #main-outlet.wrap {
-  overflow: hidden;
   margin-bottom: 30px;
   padding-bottom: 0px !important;
   .full-page-chat {
-    grid-template-rows: calc(var(--full-page-chat-height) - 30px);
+    grid-template-rows: calc(var(--full-page-chat-height) - 50px);
   }
 }
 
 @media screen and (max-width: 1366px) {
+  .has-full-page-chat #main-outlet {
+    width: 100%;
+  }
+
   .has-full-page-chat:not(.discourse-sidebar) #main-outlet.wrap {
     max-width: 100% !important;
     width: 100% !important;
