@@ -4,7 +4,6 @@
   "license_url": null,
   "components": [
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-color-scheme-toggle.git",
     "https://github.com/discourse/discourse-loading-slider.git",
     "https://github.com/discourse/discourse-clickable-topic.git",
     "https://github.com/discourse/discourse-search-banner.git"
