@@ -331,6 +331,7 @@ html body #main-outlet {
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
       &.visited {
         border: 1px solid rgba(var(--primary-rgb), 0.1);
         .discourse-tag {
@@ -512,4 +513,26 @@ html body #main-outlet {
 .quote-button {
   background-color: var(--primary-low-mid);
   border-radius: 0.5em;
+}
+
+.topic-list tr.selected td:nth-child(2),
+.topic-list-item.selected td:nth-child(2),
+.latest-topic-list-item.selected,
+.search-results .fps-result.selected {
+  box-shadow: inset 3px 0 0 var(--danger);
+}
+
+.topic-list tr.selected td:first-child,
+.topic-list-item.selected td:first-child,
+.latest-topic-list-item.selected,
+.search-results .fps-result.selected {
+  box-shadow: none;
+}
+
+.topic-list .main-link.focused + .posters {
+  box-shadow: inset 3px 0 0 var(--tertiary);
+}
+
+.topic-list .main-link.focused {
+  box-shadow: none;
 }
