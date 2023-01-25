@@ -5,13 +5,16 @@ A clean & modern theme with a handful of theme-components included to enhance yo
 <!-- Add screenshots (if applicable) -->
 
 **Light Mode**
-![image|690x436, 75%](https://d11a6trkgmumsb.cloudfront.net/original/3X/5/2/52297fe2ab838db1902f6acbbbdee53d1271a840.png)
+
+![image](https://user-images.githubusercontent.com/5862206/214545439-85410d82-9565-4e00-8b23-b2d69a0ee1eb.png)
 
 **Dark Mode**
-![image|690x451, 75%](https://d11a6trkgmumsb.cloudfront.net/original/3X/7/b/7b592c6f1f901dce0ca9e9cbd01c8f2734847fe9.png)
+
+![image](https://user-images.githubusercontent.com/5862206/214545506-f44d6165-4f79-416e-a89c-548482d04cea.png)
 
 **Categories Page**
-![image|690x427, 75%](https://d11a6trkgmumsb.cloudfront.net/original/3X/b/d/bdb109def295c9954125124b9fc33be49d12e4f2.png)
+
+![image](https://user-images.githubusercontent.com/5862206/214545568-76d38925-55a6-4359-b1c6-bf1010706132.png)
 
 This theme includes a handful of components to enhance your forum as well.
 
@@ -29,15 +32,15 @@ This theme includes a handful of components to enhance your forum as well.
 
 ### Dark Light Scheme Toggle
 
-![image|424x500, 50%](https://d11a6trkgmumsb.cloudfront.net/original/3X/1/e/1e498e5d1f26f6e46d09d48eabf7c7b6d291cd26.png)
+![image](https://user-images.githubusercontent.com/5862206/214545622-af847fa5-b4ae-4308-9fe2-ddd66eb62cc8.png)
 
 For this to work properly, at least 2 color scheme choices need to be enabled in your `https://discourse.jordanvidrine.com/admin/customize/colors` area. At least two colors need to have `color scheme can be selected by users` enabled.
 
-![image|690x207, 50%](https://d11a6trkgmumsb.cloudfront.net/original/3X/b/7/b70d149b335128a5f71914db3f703def1f48376b.png)
+![image](https://user-images.githubusercontent.com/5862206/214545647-e0544474-b6bf-4b9c-8c64-6a8bfa6ba83a.png)
 
 Once this is done, users should be able to choose between two color schemes as their `light` and `dark` preferences in their user preferences interface menu.
 
-![image|689x338, 50%](https://d11a6trkgmumsb.cloudfront.net/original/3X/1/8/184e79ce3851b9feb965117b68a97e5e7de00b93.png)
+![image](https://user-images.githubusercontent.com/5862206/214545707-170a6b88-8ccd-4d31-af59-f0834a4fad3c.png)
 
 ---
 
@@ -45,7 +48,7 @@ Once this is done, users should be able to choose between two color schemes as t
 
 In the options for the `discourse-search-banner` theme component, the `plugin-outlet` options needs to be set to **BELOW-SITE-HEADER** for this theme to render properly.
 
-![image|690x75, 75%](https://d11a6trkgmumsb.cloudfront.net/original/3X/a/c/acb30097e038fcdb3b2d77043237f46328ed8dd5.png)
+![image](https://user-images.githubusercontent.com/5862206/214545774-ed8f1322-9a95-4958-bba0-adf7ff6dea3f.png)
 
 ---
 
@@ -53,7 +56,7 @@ In the options for the `discourse-search-banner` theme component, the `plugin-ou
 
 This theme component requires your categories to use the **CATEGORY BOXES WITH SUBCATEGORIES** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
 
-![image|690x64, 75%](https://d11a6trkgmumsb.cloudfront.net/original/3X/c/2/c2798276e772741144c88c2ea47660b60bc3d4b5.png)
+![image](https://user-images.githubusercontent.com/5862206/214545903-c4bd61b9-1893-48e0-84e7-502efc26c46d.png)
 
 This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, I have only allowed up to 5 headings to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
 
