@@ -272,8 +272,8 @@ html body #main-outlet {
   }
 }
 
-.nav-pills > li a.active,
-.nav-pills > li > a {
+.nav-pills:not(.user-nav) > li a.active,
+.nav-pills:not(.user-nav) > li > a {
   border-radius: 0.5em;
 }
 
