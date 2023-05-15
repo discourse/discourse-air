@@ -226,25 +226,31 @@ div.ac-wrap {
 
 html {
   body {
-    background: linear-gradient(
-        0deg,
-        rgba(var(--primary-rgb), 0.075) 0%,
-        rgba(var(--primary-rgb), 0.075) 100%
-      ),
-      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+    background: linear-gradient(90deg, var(--tertiary-hover) 0%, var(--tertiary) 100%);
   }
   .background-container {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 20em;
     width: 100vw;
-    background: linear-gradient(
-      90deg,
-      var(--tertiary-hover) 0%,
-      var(--tertiary) 100%
-    );
-    clip-path: ellipse(148% 70% at 91% -14%);
+    background: black;
+  }
+}
+
+.background-container .background-wavet {
+  margin-top: 20em;
+}
+
+.background-wave {
+  animation: wave 10s linear;
+  animation-iteration-count: infinite;
+  fill: black;
+  
+  @keyframes wave {
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
 
