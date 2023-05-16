@@ -113,3 +113,36 @@ ol.category-breadcrumb {
   border-radius: 0.25em;
   margin-top: 1em;
 }
+
+.search-container .search-advanced .search-results {
+  padding: none;
+}
+
+.fps-result {
+  background: var(--secondary);
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(var(--primary-rgb), 0.1);
+  margin-bottom: 0.5em;
+}
+
+.search-container .search-header {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.search-container .search-advanced .search-info {
+  padding-right: 1em;
+  padding-left: 1em;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.full-width .contents .topic-list .topic-list-header tr {
+  background-color: var(--secondary);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(var(--primary-rgb), 0.1);
+  margin-bottom: 1em;
+}
