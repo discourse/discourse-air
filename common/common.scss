@@ -1,3 +1,11 @@
+// font family
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap");
+/* Set the font stack with fallback to Arial */
+body {
+  font-family: 'Space Grotesk', Arial, sans-serif;
+}
+
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
