@@ -55,6 +55,24 @@
   }
 }
 
+// Ideally the search banner component should be set to use the below-site-header outlet,
+// but this ensures the default works too
+.above-main-container-outlet.search-banner {
+  .custom-search-banner-wrap {
+    padding: 1em 0 2em;
+    color: var(--tertiary);
+    .mobile-view & {
+      color: var(--secondary);
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    .search-widget {
+      margin-top: 2em;
+    }
+  }
+}
+
 // Main customizations
 .alert {
   margin: 1em 0;
