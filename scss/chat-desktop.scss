@@ -11,6 +11,18 @@ html body.has-sidebar-page.has-full-page-chat {
   border: none !important;
 }
 
+.chat-channel {
+  height: calc(100vh - (var(--header-offset) + 6em));
+}
+
+.chat-composer__wrapper {
+  background: transparent;
+}
+
+.full-page-chat .chat-full-page-header {
+  border-radius: 1em 1em 0 0;
+}
+
 .has-full-page-chat #main-outlet.wrap {
   margin-bottom: 30px;
   padding-bottom: 0px !important;
