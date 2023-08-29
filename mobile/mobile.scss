@@ -84,7 +84,6 @@ ol.category-breadcrumb {
 
 .topic-list .topic-list-data {
   padding: 1em 1em 0 1em;
-  width: calc(100% - 2em);
   max-width: unset;
 }
 
@@ -145,4 +144,30 @@ ol.category-breadcrumb {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 1em;
+}
+
+.topic-list .topic-item-stats {
+  flex-wrap: wrap;
+}
+
+.topic-list-item .discourse-tags {
+  order: 3;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.full-width .contents .topic-list .topic-list-item .posts-map {
+  padding: 0;
+  .number {
+    margin: 0;
+  }
+}
+
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts {
+  width: unset;
+}
+
+.topic-list .topic-list-header .topic-list-data,
+.topic-list .topic-list-item .topic-list-data {
+  padding: 15px;
 }
