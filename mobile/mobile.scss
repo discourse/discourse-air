@@ -64,6 +64,12 @@ ol.category-breadcrumb {
   margin-top: 1em;
 }
 
+.categories-list .list-controls {
+  background: var(--secondary);
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
 .list-controls .nav-pills {
   li.navigation-toggle {
     border-radius: 8px;
