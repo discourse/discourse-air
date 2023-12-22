@@ -12,7 +12,11 @@ html body.has-sidebar-page.has-full-page-chat {
 }
 
 .chat-channel {
-  height: calc(100vh - (var(--header-offset) + 6em));
+  height: calc(100vh - (var(--header-offset) + 10em));
+}
+
+.c-navbar-container {
+  border-radius: 1em 1em 0 0;
 }
 
 .chat-composer__wrapper {
