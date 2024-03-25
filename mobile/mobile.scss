@@ -19,7 +19,13 @@ html
   background-color: transparent;
 }
 
+html body #main-outlet .docs {
+  padding: 1em;
+  background-color: var(--secondary);
+}
+
 html body.static-tos #main-outlet,
+html body.no-ember #main-outlet,
 html body.static-privacy #main-outlet,
 html body.about-page #main-outlet,
 html body.static-faq #main-outlet,

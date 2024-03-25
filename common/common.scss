@@ -247,7 +247,7 @@ div.ac-wrap {
 }
 
 html {
-  body {
+  body:not(.no-ember) {
     background: linear-gradient(
         0deg,
         rgba(var(--primary-rgb), 0.075) 0%,
@@ -267,6 +267,9 @@ html {
       var(--tertiary) 100%
     );
     clip-path: ellipse(148% 70% at 91% -14%);
+  }
+  body.no-ember .background-container {
+    display: none;
   }
 }
 
