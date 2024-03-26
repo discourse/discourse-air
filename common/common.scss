@@ -302,6 +302,17 @@ html body #main-outlet {
   border-radius: 0.5em;
 }
 
+.category-calendar {
+  &.before-topic-list-body-outlet {
+    display: block;
+  }
+  background: var(--secondary);
+  padding: 1em;
+  border-radius: var(--d-border-radius);
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
 // Topic List
 
 @keyframes background-fade-highlight {
