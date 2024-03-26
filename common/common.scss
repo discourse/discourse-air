@@ -150,6 +150,10 @@
   }
 }
 
+.not-found-container {
+  background-color: var(--secondary);
+}
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
