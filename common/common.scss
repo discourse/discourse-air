@@ -150,6 +150,10 @@
   }
 }
 
+.not-found-container {
+  background-color: var(--secondary);
+}
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -300,6 +304,16 @@ html body #main-outlet {
 .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
   border-radius: 0.5em;
+}
+
+.category-calendar {
+  &.before-topic-list-body-outlet {
+    display: block;
+  }
+  background: var(--secondary);
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
 }
 
 // Topic List
