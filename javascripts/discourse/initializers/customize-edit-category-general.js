@@ -1,5 +1,5 @@
-import { withPluginApi } from "discourse/lib/plugin-api";
 import { cancel } from "@ember/runloop";
+import { withPluginApi } from "discourse/lib/plugin-api";
 
 export default {
   name: "customize-edit-category-general",
