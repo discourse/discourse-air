@@ -316,6 +316,13 @@ html body #main-outlet {
   margin-bottom: 1em;
 }
 
+.discourse-post-event-upcoming-events {
+  background: var(--secondary);
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
 // Topic List
 
 @keyframes background-fade-highlight {
