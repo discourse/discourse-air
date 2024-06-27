@@ -303,7 +303,10 @@ html body #main-outlet {
 
 .nav-pills:not(.user-nav) > li a.active,
 .nav-pills:not(.user-nav) > li > a {
-  border-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .category-calendar {
