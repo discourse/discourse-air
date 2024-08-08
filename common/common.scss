@@ -49,7 +49,15 @@
     top: 43px;
     border-radius: 0.25em;
   }
+  .search-context {
+    top: 3.25em;
+    right: 1em;
+  }
+}
 
+.search-input {
+  border-radius: 0.25em;
+}
 .display-search-banner {
   #main-outlet {
     padding-top: 2em;
