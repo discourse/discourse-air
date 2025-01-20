@@ -55,6 +55,11 @@
   }
 }
 
+#main-outlet {
+  justify-self: center;
+  max-width: calc(100% - 50px) !important;
+}
+
 // Ideally the search banner component should be set to use the below-site-header outlet,
 // but this ensures the default works too
 .above-main-container-outlet.search-banner {
