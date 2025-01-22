@@ -657,15 +657,13 @@ html body #main-outlet {
 }
 
 .category-list tr {
-  border-bottom: 1px solid var(--primary-low) !important;
+  border: 1px solid var(--primary-low) !important;
   margin-bottom: 30px !important;
   display: grid !important;
   grid-template-columns: 40% 10% 47% !important;
-  border-top: 1px solid var(--primary-low) !important;
   gap: 10px !important;
-  border-right: 1px solid var(--primary-low) !important;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: var(--primary-low) !important;
+  background-color: var(--primary-very-low) !important;
 }
 
 .category-list td.category {
