@@ -686,3 +686,10 @@ html body #main-outlet {
   display: flex !important;
   flex-direction: column !important;
 }
+
+.category-list thead tr {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 5px !important;
+}
