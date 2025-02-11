@@ -21,7 +21,8 @@
       "highlight": "e6cb37",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "c16ad7",
+      "selected": "e1ebfb"
     },
     "air-dark": {
       "primary": "e0e0e0",
@@ -33,7 +34,9 @@
       "highlight": "9a5cfd",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "c16ad7",
+      "selected": "2f0177",
+      "hover": "535353"
     }
   },
   "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
