@@ -1,0 +1,89 @@
+sv:
+  theme_metadata:
+    description: "QNAP Community Tema"
+  adduser:
+    intro: "Logga in med ditt QNAP-konto (QID) för att dela och hitta lösningar"
+    sign_in: "Logga in"
+    register: "Registrera"
+  status:
+    online_users: "Onlineanvändare"
+    posts: "Inlägg"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blogg"
+      description: "Håll dig uppdaterad med blogginlägg om QNAP-produkter och teknik."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Kunskapsbas"
+      description: "Utforska guider, handledningar och experttips för att få ut det mesta av dina QNAP-produkter."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Versionsanteckningar"
+      description: "Upptäck de senaste funktionerna, förbättringarna och buggfixarna i våra senaste versioner."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Allmänt"
+      description: "Anslut med communityt för att diskutera allmänna ämnen om NAS-användning och användarupplevelse."
+    storage:
+      name: "Lagring"
+      description: "Från privata användare till företag erbjuder QNAP mångsidiga och skalbara lagringslösningar. Diskutera lagringslösningar i detalj, inklusive hårdvarurekommendationer, filhanteringsstrategier och datastyrningstekniker."
+    backup-and-data-protection:
+      name: "Backup och Dataskydd"
+      description: "QNAP erbjuder en rad backup-lösningar, dataskyddslösningar och katastrofåterställningsplaner för att skydda din värdefulla information."
+    cloud:
+      name: "Moln"
+      description: "Utforska ämnen relaterade till QNAP:s molnlagringsintegration, synkronisering och molntjänster."
+    networking:
+      name: "Nätverk"
+      description: "Skapa avancerad nätverksinfrastruktur med QNAP:s omfattande nätverks- och virtualiseringslösningar, inklusive höghastighetsanslutningar och virtualiserade IT-miljöer."
+    surveillance:
+      name: "Övervakning"
+      description: "Bygg ett omfattande övervakningssystem med QNAP NAS. QNAP:s allt-i-ett-övervakningslösningar kombinerar hårdvara och mjukvara för att förenkla underhåll och reparationer."
+    mobile-utility:
+      name: "Mobilappar & Verktyg"
+      description: "Upptäck nya sätt och bekväma metoder att använda din NAS med QNAP:s mobilappar och verktyg."
+    site-feedback:
+      name: "Webbplatsåterkoppling"
+      description: "En privat kategori för community-funktionsförfrågningar, diskussioner och felrapporter. Ämnen är endast synliga för administratörer och moderatorer."
+    staff:
+      name: "Personal"
+      description: "En privat kategori för personaldiskussioner. Ämnen är endast synliga för administratörer och moderatorer."
+  search_banner:
+    headline: "Välkommen till QNAP Community"
+    subhead: "Gå med oss för att dela idéer, lära dig och ansluta med QNAP-entusiaster"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Senaste"
+      all: "Alla ämnen"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Nytt Ämne</span>'
+  discussion_spaces:
+    title: "Diskussionsutrymmen"
+  navs:
+    nav1:
+      title: "Blogg"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Kunskapsbas"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Versionsanteckningar"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Support"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Säkerhetsguide"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Nyheter"
+    learn_more: "Läs mer"
+  footer:
+    third_party_forums: "Forum från tredje part"
+    privacy_policy: "Integritetspolicy"
+    terms_of_service: "Tjänstevillkor"
+    about: "Om"

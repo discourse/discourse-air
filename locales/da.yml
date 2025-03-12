@@ -1,0 +1,89 @@
+da:
+  theme_metadata:
+    description: "QNAP Fællesskabstema"
+  adduser:
+    intro: "Log ind med din QNAP-konto (QID) for at dele og finde løsninger"
+    sign_in: "Log ind"
+    register: "Tilmeld"
+  status:
+    online_users: "Online brugere"
+    posts: "Indlæg"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Hold dig opdateret med blogindlæg om QNAP-produkter og teknologi."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Vidensbase"
+      description: "Udforsk vejledninger, tutorials og eksperttips for at få mest muligt ud af dine QNAP-produkter."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Udgivelsesnoter"
+      description: "Find ud af de nyeste funktioner, forbedringer og fejlrettelser i vores seneste udgivelser."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Generelt"
+      description: "Forbind med fællesskabet for at diskutere generelle emner om NAS-brug og brugeroplevelse."
+    storage:
+      name: "Opbevaring"
+    description: "Fra personlige brugere til virksomheder, QNAP tilbyder alsidige og skalerbare opbevaringsløsninger. Diskuter opbevaringsløsninger dybtgående, herunder hardwareanbefalinger, filhåndteringsstrategier og  datastyringsteknikker."
+    backup-and-data-protection:
+      name: "Backup og Databeskyttelse"
+      description: "QNAP tilbyder en række backup- og databeskyttelsesløsninger samt katastrofeplaner for at sikre dine   værdifulde oplysninger."
+    cloud:
+      name: "Cloud"
+      description: "Udforsk emner relateret til QNAP cloud-lagringsintegration, synkronisering og cloud-tjenester."
+    networking:
+      name: "Netværk"
+      description: "Få avanceret netværksinfrastruktur med QNAP’s omfattende netværks- og virtualiseringsløsninger, herunder  højhastighedsforbindelser og virtualiserede IT-miljøer."
+    surveillance:
+      name: "Overvågning"
+      description: "Byg et omfattende overvågningssystem med QNAP NAS. QNAP’s alt-i-en overvågningsløsninger kombinerer   hardware og software for at forenkle vedligeholdelse og reparation."
+    mobile-utility:
+      name: "Mobile Apps & Værktøjer"
+      description: "Oplev nye måder og nemme metoder til at bruge din NAS med QNAP’s mobile apps og værktøjer."
+    site-feedback:
+      name: "Websted Feedback"
+      description: "En privat kategori for fællesskabets funktionsanmodninger, diskussioner og fejlrapporter. Emner er kun  synlige for administratorer og moderatorer."
+    staff:
+      name: "Personale"
+      description: "En privat kategori for personale-diskussioner. Emner er kun synlige for administratorer og moderatorer."
+  search_banner:
+    headline: "Velkommen til QNAP Fællesskabet"
+    subhead: "Bliv medlem, del dine idéer, lær og forbind med QNAP-entusiaster"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Seneste"
+      all: "Alle emner"
+    new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use  href="#plus"></use></svg> <span class="d-button-label">Nyt Emne</span>'
+  discussion_spaces:
+    title: "Diskussionsområder"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Vidensbase"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Udgivelsesnoter"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Support"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Sikkerhedsguide"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Nyheder"
+    learn_more: "Lær mere"
+  footer:
+    third_party_forums: "Tredjeparts fora"
+    privacy_policy: "Privatlivspolitik"
+    terms_of_service: "Servicevilkår"
+    about: "Om"

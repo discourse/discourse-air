@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-d080e2b7-e516-4599-bf59-b7ce8ef8d823" data-name="_x38_6b061ad-ee6b-4fd7-852c-742483397385" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M24,12c0,6.63-5.37,12-12,12S0,18.63,0,12,5.37,0,12,0s12,5.37,12,12Z" style="fill: #fff;"/>
+  <path d="M16.74,11.7c.24,2.62-1.69,4.94-4.32,5.18-2.62.24-4.94-1.69-5.18-4.32-.24-2.62,1.69-4.94,4.31-5.17,2.62-.24,4.94,1.69,5.18,4.31Z" style="fill: #ce1126;"/>
+  <path d="M7.92,9.67c-.68,1.13-.32,2.59.8,3.27,1.13.68,2.59.32,3.27-.8h0c.58-1.17,2.01-1.65,3.18-1.07,1.17.58,1.65,2.01,1.07,3.18-.06.12-.13.24-.21.35-1.31,2.28-4.23,3.06-6.5,1.74-2.28-1.31-3.06-4.23-1.74-6.5.03-.06.07-.11.1-.17h.02Z" style="fill: #003f87;"/>
+  <rect x="1.14" y="6.15" width="4.78" height=".75" transform="translate(-3.85 5.8) rotate(-55.99)"/>
+  <rect x="2.08" y="6.79" width="4.78" height=".75" transform="translate(-3.97 6.85) rotate(-55.89)"/>
+  <rect x="3.04" y="7.43" width="4.78" height=".75" transform="translate(-4.08 7.94) rotate(-56.02)"/>
+  <rect x="18.18" y="15.02" width="2.21" height=".75" transform="translate(-4.26 22.76) rotate(-55.97)"/>
+  <rect x="16.75" y="17.15" width="2.21" height=".74" transform="translate(-6.64 22.58) rotate(-56.14)"/>
+  <rect x="19.14" y="15.66" width="2.21" height=".75" transform="translate(-4.39 23.8) rotate(-55.86)"/>
+  <rect x="17.7" y="17.79" width="2.21" height=".75" transform="translate(-6.77 23.56) rotate(-55.91)"/>
+  <rect x="20.09" y="16.31" width="2.21" height=".75" transform="translate(-4.49 24.93) rotate(-56)"/>
+  <rect x="18.66" y="18.43" width="2.21" height=".75" transform="translate(-6.88 24.69) rotate(-56.02)"/>
+  <rect x="19.16" y="4.77" width=".75" height="4.78" transform="translate(-.67 12.11) rotate(-33.89)"/>
+  <rect x="19.39" y="4.35" width=".75" height="2.21" transform="translate(.34 12.01) rotate(-34.08)"/>
+  <polygon points="21.51 8.71 22.13 8.29 20.89 6.46 20.27 6.87 21.51 8.71"/>
+  <rect x="17.49" y="5.63" width=".74" height="2.22" transform="translate(-.71 11.14) rotate(-34.01)"/>
+  <polygon points="19.6 9.99 20.22 9.58 18.98 7.74 18.37 8.16 19.6 9.99"/>
+  <rect x="5.05" y="14.06" width=".74" height="4.78" transform="translate(-8.25 5.82) rotate(-33.88)"/>
+  <rect x="3.15" y="15.35" width=".74" height="4.78" transform="translate(-9.32 5) rotate(-34.02)"/>
+  <rect x="3.38" y="14.93" width=".75" height="2.21" transform="translate(-8.34 4.86) rotate(-34.1)"/>
+  <polygon points="5.5 19.29 6.12 18.87 4.88 17.03 4.26 17.45 5.5 19.29"/>
+</svg>

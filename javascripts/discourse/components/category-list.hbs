@@ -1,0 +1,28 @@
+<div class="q-container">
+  <div>
+    <h2>{{theme-i18n "discussion_spaces.title"}}</h2>
+    <ul id="category-content" class="card-type">
+      {{#each this.categories as |category|}}
+        <li>
+          <div>
+            <div>
+              <a
+                href="/c/{{category.slug}}/{{category.id}}"
+              >
+                <figure><img
+                    src="{{category.uploaded_logo.url}}"
+                    alt="{{category.name}}"
+                    width="100"
+                  /></figure>
+                <div>
+                  <h3>{{category.name}}</h3>
+                  <p>{{category.description}}</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

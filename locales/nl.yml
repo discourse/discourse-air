@@ -1,0 +1,89 @@
+nl:
+  theme_metadata:
+    description: "QNAP Community Thema"
+  adduser:
+    intro: "Log in met uw QNAP-account (QID) om oplossingen te delen en te vinden"
+    sign_in: "Inloggen"
+    register: "Registreren"
+  status:
+    online_users: "Online gebruikers"
+    posts: "Berichten"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Blijf op de hoogte van blogposts over QNAP-producten en -technologieën."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Kennisbank"
+      description: "Ontdek handleidingen, tutorials en expertentips om het meeste uit uw QNAP-producten te halen."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Release Notes"
+      description: "Ontdek de nieuwste functies, verbeteringen en bugfixes in onze nieuwste releases."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Algemeen"
+      description: "Verbind met de community om algemene onderwerpen over NAS-gebruik en gebruikerservaring te bespreken."
+    storage:
+      name: "Opslag"
+      description: "Van particuliere gebruikers tot bedrijven biedt QNAP veelzijdige en schaalbare opslagoplossingen. Bespreek opslagoplossingen in detail, inclusief hardware-aanbevelingen, bestandsbeheerstrategieën en databeheertechnieken."
+    backup-and-data-protection:
+      name: "Back-up en Gegevensbescherming"
+      description: "QNAP biedt een reeks back-upoplossingen, gegevensbescherming en rampenherstelplannen om uw waardevolle informatie te beschermen."
+    cloud:
+      name: "Cloud"
+      description: "Ontdek onderwerpen gerelateerd aan QNAP cloudopslagintegratie, synchronisatie en clouddiensten."
+    networking:
+      name: "Netwerken"
+      description: "Bereik geavanceerde netwerk infrastructuur met QNAP’s uitgebreide netwerk- en virtualisatieoplossingen, inclusief hogesnelheidsverbindingen en gevirtualiseerde IT-omgevingen."
+    surveillance:
+      name: "Bewaking"
+      description: "Bouw een uitgebreid bewakingssysteem met QNAP NAS. QNAP’s all-in-one bewakingsoplossingen combineren hardware en software om onderhoud en reparatie te vereenvoudigen."
+    mobile-utility:
+      name: "Mobiele Apps & Hulpprogramma's"
+      description: "Ontdek nieuwe manieren en handige methoden om uw NAS te gebruiken met de mobiele apps en hulpprogramma's van QNAP."
+    site-feedback:
+      name: "Website Feedback"
+      description: "Een privécategorie voor community-feature aanvragen, discussies en bugrapportages. Onderwerpen zijn alleen zichtbaar voor beheerders en moderators."
+    staff:
+      name: "Personeel"
+      description: "Een privécategorie voor personeelsdiscussies. Onderwerpen zijn alleen zichtbaar voor beheerders en moderators."
+  search_banner:
+    headline: "Welkom bij de QNAP Community"
+    subhead: "Doe mee, deel ideeën, leer en verbind met QNAP-enthousiastelingen"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Nieuwste"
+      all: "Alle onderwerpen"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Nieuw Onderwerp</span>'
+  discussion_spaces:
+    title: "Discussieruimten"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Kennisbank"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Release Notes"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Ondersteuning"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Beveiligingsgids"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Nieuws"
+    learn_more: "Lees meer"
+  footer:
+    third_party_forums: "Forums van derden"
+    privacy_policy: "Privacybeleid"
+    terms_of_service: "Servicevoorwaarden"
+    about: "Over"

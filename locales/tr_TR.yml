@@ -1,0 +1,89 @@
+tr_TR:
+  theme_metadata:
+    description: "QNAP Topluluk Teması"
+  adduser:
+    intro: "Çözümleri paylaşmak ve bulmak için QNAP hesabınız (QID) ile oturum açın"
+    sign_in: "Oturum Aç"
+    register: "Kaydol"
+  status:
+    online_users: "Çevrimiçi Kullanıcılar"
+    posts: "Gönderiler"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "QNAP ürünleri ve teknolojileri hakkında blog gönderileriyle güncel kalın."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Bilgi Bankası"
+      description: "QNAP ürünlerinizden en iyi şekilde yararlanmak için kılavuzları, öğreticileri ve uzman ipuçlarını keşfedin."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Sürüm Notları"
+      description: "En son sürümlerimizdeki en yeni özellikleri, iyileştirmeleri ve hata düzeltmelerini keşfedin."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Genel"
+      description: "NAS kullanımı ve kullanıcı deneyimi hakkında genel konuları tartışmak için toplulukla bağlantı kurun."
+    storage:
+      name: "Depolama"
+      description: "Kişisel kullanıcılardan işletmelere kadar QNAP, çok yönlü ve ölçeklenebilir depolama çözümleri sunar. Donanım önerileri, dosya yönetim stratejileri ve veri organizasyonu teknikleri dahil depolama çözümlerini derinlemesine tartışın."
+    backup-and-data-protection:
+      name: "Yedekleme ve Veri Koruma"
+      description: "QNAP, değerli bilgilerinizi korumak için çeşitli yedekleme çözümleri, veri koruma çözümleri ve felaket kurtarma planları sunar."
+    cloud:
+      name: "Bulut"
+      description: "QNAP bulut depolama entegrasyonu, senkronizasyon ve bulut hizmetleriyle ilgili konuları keşfedin."
+    networking:
+      name: "Ağ"
+      description: "QNAP’ın kapsamlı ağ ve sanallaştırma çözümleri ile ileri düzey ağ altyapısı oluşturun, yüksek hızlı bağlantılar ve sanallaştırılmış BT ortamları dahil."
+    surveillance:
+      name: "Gözetim"
+      description: "QNAP NAS ile kapsamlı bir gözetim sistemi kurun. QNAP’ın hepsi bir arada gözetim çözümleri, bakım ve onarımı basitleştiren donanım ve yazılımı birleştirir."
+    mobile-utility:
+      name: "Mobil Uygulamalar & Araçlar"
+      description: "QNAP’ın mobil uygulamaları ve araçları ile NAS’ınızı kullanmanın yeni yollarını ve pratik yöntemlerini keşfedin."
+    site-feedback:
+      name: "Site Geri Bildirimi"
+      description: "Topluluk özellik istekleri, tartışmalar ve hata raporları için özel bir kategori. Konular yalnızca yöneticiler ve moderatörler tarafından görülebilir."
+    staff:
+      name: "Personel"
+      description: "Personel tartışmaları için özel bir kategori. Konular yalnızca yöneticiler ve moderatörler tarafından görülebilir."
+  search_banner:
+    headline: "QNAP Topluluğuna Hoş Geldiniz"
+    subhead: "Fikirlerinizi paylaşmak, öğrenmek ve QNAP meraklılarıyla bağlantı kurmak için bize katılın"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "En Yeniler"
+      all: "Tüm Konular"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Yeni Konu</span>'
+  discussion_spaces:
+    title: "Tartışma Alanları"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Bilgi Bankası"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Sürüm Notları"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Destek"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Güvenlik Kılavuzu"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Haberler"
+    learn_more: "Daha Fazla Bilgi Edinin"
+  footer:
+    third_party_forums: "Üçüncü Taraf Forumları"
+    privacy_policy: "Gizlilik Politikası"
+    terms_of_service: "Hizmet Şartları"
+    about: "Hakkında"

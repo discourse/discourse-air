@@ -1,0 +1,89 @@
+th:
+  theme_metadata:
+    description: "ธีมชุมชน QNAP"
+  adduser:
+    intro: "เข้าสู่ระบบด้วยบัญชี QNAP ของคุณ (QID) เพื่อแบ่งปันและค้นหาโซลูชัน"
+    sign_in: "เข้าสู่ระบบ"
+    register: "ลงทะเบียน"
+  status:
+    online_users: "ผู้ใช้งานออนไลน์"
+    posts: "โพสต์"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "บล็อก"
+      description: "ติดตามบทความในบล็อกเกี่ยวกับผลิตภัณฑ์และเทคโนโลยีของ QNAP ได้ตลอดเวลา"
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "คลังความรู้"
+      description: "สำรวจคำแนะนำ บทแนะนำ และเคล็ดลับจากผู้เชี่ยวชาญเพื่อใช้ประโยชน์จากผลิตภัณฑ์ QNAP ของคุณอย่างเต็มที่"
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "หมายเหตุรุ่น"
+      description: "เรียนรู้เกี่ยวกับฟีเจอร์ใหม่ๆ การปรับปรุง และการแก้ไขข้อบกพร่องในรุ่นล่าสุดของเรา"
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "ทั่วไป"
+      description: "เชื่อมต่อกับชุมชนเพื่อพูดคุยหัวข้อทั่วไปเกี่ยวกับการใช้ NAS และประสบการณ์ของผู้ใช้"
+    storage:
+      name: "การจัดเก็บ"
+      description: "ตั้งแต่ผู้ใช้ส่วนบุคคลจนถึงองค์กร QNAP นำเสนอแนวทางการจัดเก็บข้อมูลที่หลากหลายและปรับขยายได้ กล่าวถึงแนวทางการจัดเก็บข้อมูลในเชิงลึก รวมถึงคำแนะนำฮาร์ดแวร์ กลยุทธ์การจัดการไฟล์ และเทคนิคการจัดระเบียบข้อมูล"
+    backup-and-data-protection:
+      name: "การสำรองข้อมูลและการป้องกันข้อมูล"
+      description: "QNAP นำเสนอแนวทางการสำรองข้อมูลที่หลากหลาย โซลูชันการป้องกันข้อมูล และแผนการกู้คืนข้อมูลจากภัยพิบัติเพื่อปกป้องข้อมูลอันมีค่าของคุณ"
+    cloud:
+      name: "คลาวด์"
+      description: "สำรวจหัวข้อที่เกี่ยวข้องกับการผสานรวม QNAP คลาวด์สตอเรจ การซิงโครไนซ์ และบริการคลาวด์"
+    networking:
+      name: "เครือข่าย"
+      description: "สร้างโครงสร้างพื้นฐานเครือข่ายขั้นสูงด้วยโซลูชันเครือข่ายและการจำลองเสมือนที่ครอบคลุมของ QNAP รวมถึงการเชื่อมต่อความเร็วสูงและสภาพแวดล้อม IT เสมือนจริง"
+    surveillance:
+      name: "การเฝ้าระวัง"
+      description: "สร้างระบบการเฝ้าระวังแบบครบวงจรด้วย QNAP NAS โซลูชันการเฝ้าระวังแบบครบวงจรของ QNAP ผสานรวมฮาร์ดแวร์และซอฟต์แวร์เพื่อให้ง่ายต่อการบำรุงรักษาและซ่อมแซม"
+    mobile-utility:
+      name: "แอปพลิเคชันมือถือ & เครื่องมือ"
+      description: "ค้นพบวิธีใหม่ๆ และวิธีที่สะดวกในการใช้ NAS ของคุณด้วยแอปพลิเคชันมือถือและเครื่องมือของ QNAP"
+    site-feedback:
+      name: "ความคิดเห็นเกี่ยวกับเว็บไซต์"
+      description: "หมวดหมู่ส่วนตัวสำหรับคำขอฟีเจอร์ชุมชน การสนทนา และรายงานข้อผิดพลาด หัวข้อจะมองเห็นได้เฉพาะผู้ดูแลระบบและผู้ควบคุมเท่านั้น"
+    staff:
+      name: "พนักงาน"
+      description: "หมวดหมู่ส่วนตัวสำหรับการสนทนาของพนักงาน หัวข้อจะมองเห็นได้เฉพาะผู้ดูแลระบบและผู้ควบคุมเท่านั้น"
+  search_banner:
+    headline: "ยินดีต้อนรับสู่ชุมชน QNAP"
+    subhead: "เข้าร่วมกับเราเพื่อแบ่งปันแนวคิด เรียนรู้ และเชื่อมต่อกับผู้ที่หลงใหลใน QNAP"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "ล่าสุด"
+      all: "ทุกหัวข้อ"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">หัวข้อใหม่</span>'
+  discussion_spaces:
+    title: "พื้นที่สนทนา"
+  navs:
+    nav1:
+      title: "บล็อก"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "คลังความรู้"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "หมายเหตุรุ่น"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "การสนับสนุน"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "คู่มือความปลอดภัย"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "ข่าวสาร"
+    learn_more: "เรียนรู้เพิ่มเติม"
+  footer:
+    third_party_forums: "ฟอรัมของบุคคลที่สาม"
+    privacy_policy: "นโยบายความเป็นส่วนตัว"
+    terms_of_service: "ข้อกำหนดในการให้บริการ"
+    about: "เกี่ยวกับ"

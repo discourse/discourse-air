@@ -1,2 +1,4 @@
 node_modules
 .discourse-site
+.idea/
+.DS_Store

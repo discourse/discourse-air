@@ -1,0 +1,89 @@
+fr:
+  theme_metadata:
+    description: "Thème de la communauté QNAP"
+  adduser:
+    intro: "Connectez-vous avec votre compte QNAP (QID) pour partager et trouver des solutions"
+    sign_in: "Se connecter"
+    register: "S'inscrire"
+  status:
+    online_users: "Utilisateurs en ligne"
+    posts: "Messages"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Restez informé avec des articles de blog sur les produits et technologies QNAP."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Base de connaissances"
+      description: "Explorez des guides, des tutoriels et des conseils d'experts pour tirer le meilleur parti de vos produits QNAP."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Notes de version"
+      description: "Découvrez les nouvelles fonctionnalités, améliorations et correctifs dans nos dernières versions."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Général"
+      description: "Connectez-vous avec la communauté pour discuter de sujets généraux liés à l'utilisation des NAS et à l'expérience utilisateur."
+    storage:
+      name: "Stockage"
+      description: "QNAP propose des solutions de stockage polyvalentes et évolutives pour les particuliers et les entreprises. Discutez des solutions de stockage en profondeur, y compris les recommandations matérielles, les stratégies de gestion des fichiers et les techniques d'organisation des données."
+    backup-and-data-protection:
+      name: "Sauvegarde et Protection des Données"
+      description: "QNAP offre une gamme de solutions de sauvegarde, de protection des données et de plans de récupération après sinistre pour protéger vos informations précieuses."
+    cloud:
+      name: "Cloud"
+      description: "Explorez les sujets relatifs à l'intégration du stockage cloud QNAP, à la synchronisation et aux services cloud."
+    networking:
+      name: "Réseautage"
+      description: "Bénéficiez d'une infrastructure réseau de pointe avec les solutions réseau et virtualisation complètes de QNAP, y compris des connexions à haute vitesse et des environnements IT virtualisés."
+    surveillance:
+      name: "Surveillance"
+      description: "Construisez un système de surveillance complet avec QNAP NAS. Les solutions de surveillance tout-en-un de QNAP combinent matériel et logiciel pour simplifier la maintenance et les réparations."
+    mobile-utility:
+      name: "Applications Mobiles & Outils"
+      description: "Découvrez de nouvelles façons et méthodes pratiques d'utiliser votre NAS avec les applications mobiles et outils QNAP."
+    site-feedback:
+      name: "Commentaires sur le site"
+      description: "Une catégorie privée pour les demandes de fonctionnalités de la communauté, les discussions et les rapports de bogues. Les sujets sont visibles uniquement par les administrateurs et modérateurs."
+    staff:
+      name: "Personnel"
+      description: "Une catégorie privée pour les discussions du personnel. Les sujets sont visibles uniquement par les administrateurs et modérateurs."
+  search_banner:
+    headline: "Bienvenue dans la Communauté QNAP"
+    subhead: "Rejoignez-nous pour partager vos idées, apprendre et vous connecter avec des passionnés de QNAP"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Derniers"
+      all: "Tous les sujets"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Nouveau Sujet</span>'
+  discussion_spaces:
+    title: "Espaces de Discussion"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Base de connaissances"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Notes de version"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Support"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Guide de sécurité"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Actualités"
+    learn_more: "En savoir plus"
+  footer:
+    third_party_forums: "Forums tiers"
+    privacy_policy: "Politique de confidentialité"
+    terms_of_service: "Conditions d'utilisation"
+    about: "À propos"

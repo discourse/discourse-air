@@ -1,0 +1,89 @@
+ko:
+  theme_metadata:
+    description: "QNAP 커뮤니티 테마"
+  adduser:
+    intro: "QNAP 계정(QID)으로 로그인하여 솔루션을 공유하고 찾아보세요"
+    sign_in: "로그인"
+    register: "가입하기"
+  status:
+    online_users: "온라인 사용자"
+    posts: "게시물"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "블로그"
+      description: "QNAP 제품과 기술에 관한 블로그 게시물로 최신 정보를 확인하세요."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "지식 베이스"
+      description: "QNAP 제품을 최대한 활용할 수 있도록 가이드, 튜토리얼 및 전문가 팁을 확인하세요."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "릴리즈 노트"
+      description: "최신 릴리즈의 새로운 기능, 개선 사항 및 버그 수정 내용을 확인하세요."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "일반"
+      description: "커뮤니티와 연결하여 NAS 사용 및 사용자 경험에 관한 일반적인 주제를 논의하세요."
+    storage:
+      name: "스토리지"
+      description: "개인 사용자부터 기업까지, QNAP은 다양한 확장 가능한 스토리지 솔루션을 제공합니다. 하드웨어 추천, 파일 관리 전략, 데이터 조직 기술 등을 포함한 스토리지 솔루션에 대해 심도 있게 논의하세요."
+    backup-and-data-protection:
+      name: "백업 및 데이터 보호"
+      description: "QNAP은 귀하의 소중한 정보를 보호하기 위한 다양한 백업 솔루션, 데이터 보호 솔루션 및 재해 복구 계획을 제공합니다."
+    cloud:
+      name: "클라우드"
+      description: "QNAP 클라우드 스토리지 통합, 동기화, 클라우드 서비스와 관련된 주제를 탐색하세요."
+    networking:
+      name: "네트워킹"
+      description: "고속 연결 및 가상화된 IT 환경을 포함한 QNAP의 종합 네트워크 및 가상화 솔루션으로 최첨단 네트워크 인프라를 구현하세요."
+    surveillance:
+      name: "감시"
+      description: "QNAP NAS를 사용하여 종합적인 감시 시스템을 구축하세요. QNAP의 올인원 감시 솔루션은 하드웨어와 소프트웨어를 결합하여 유지보수 및 수리를 간소화합니다."
+    mobile-utility:
+      name: "모바일 앱 및 유틸리티"
+      description: "QNAP 모바일 앱 및 유틸리티를 통해 NAS를 사용하는 새로운 방법과 편리한 방법을 찾아보세요."
+    site-feedback:
+      name: "사이트 피드백"
+      description: "커뮤니티 기능 요청, 토론 및 버그 보고를 위한 비공개 카테고리입니다. 주제는 관리자와 중재자만 볼 수 있습니다."
+    staff:
+      name: "직원"
+      description: "직원 토론을 위한 비공개 카테고리입니다. 주제는 관리자와 중재자만 볼 수 있습니다."
+  search_banner:
+    headline: "QNAP 커뮤니티에 오신 것을 환영합니다"
+    subhead: "아이디어를 공유하고 배우며 QNAP 애호가들과 연결하세요"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "최신"
+      all: "모든 주제"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">새 주제</span>'
+  discussion_spaces:
+    title: "토론 공간"
+  navs:
+    nav1:
+      title: "블로그"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "지식 베이스"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "릴리즈 노트"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "지원"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "보안 가이드"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "뉴스"
+    learn_more: "자세히 알아보기"
+  footer:
+    third_party_forums: "타사 포럼"
+    privacy_policy: "개인정보 보호정책"
+    terms_of_service: "서비스 이용 약관"
+    about: "정보"

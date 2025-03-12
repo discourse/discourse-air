@@ -1,0 +1,21 @@
+{{#if this.filteredTopics}}
+  <div class="featured-lists__wrapper above-main-container full-width">
+    <div class="featured-lists__list-container contents">
+      <div class="featured-lists__list-header">
+        <h2>{{theme-i18n "features_list.latest.status"}}</h2>
+        {{!-- <a href="/latest" class="feed-link">{{theme-i18n
+            "features_list.latest.all"
+          }}</a> --}}
+        <DButton id="create-topic" class='btn btn-default' {{on "click" (if this.currentUser this.createTopic this.showLogin)}}>
+            <svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg>
+            <span class="d-button-label">{{i18n 'topic.create'}}</span>
+        </DButton>
+      </div>
+      <TopicList
+        @topics={{this.filteredTopics}}
+        @showPosters="true"
+        class="featured-lists__list-body"
+      />
+    </div>
+  </div>
+{{/if}}

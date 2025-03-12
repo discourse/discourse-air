@@ -1,3 +1,61 @@
 en:
   theme_metadata:
-    description: "A clean and modern theme for Discourse"
+    description: "QNAP Community Theme"
+  adduser:
+    intro: "Sign in with your QNAP account (QID) to share and find solutions"
+    sign_in: "Sign In"
+    register: "Register"
+  status:
+    online_users: "online users"
+    posts: "posts"
+  cards:
+    item1:
+      url: "https://blog.qnap.com"
+      title: "Blog"
+      description: "Stay tuned for blog posts about QNAP's products and technologies."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Knowledge Base"
+      description: "Explore guides, tutorials, and expert tips to get the most out of your QNAP products."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Release Notes"
+      description: "Discover the latest features, improvements, and bug fixes in our most recent releases."
+      icon: "releaseLogo"
+  search_banner:
+    headline: "Welcome to QNAP Community"
+    subhead: "Join us to share ideas, learn, and connect with QNAP enthusiasts"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Latest"
+      all: "All Topics"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">New Topic</span>'
+  discussion_spaces:
+    title: "Discussion Spaces"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Knowledge Base"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Release Note"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Support"
+      url: "https://service.qnap.com/en/home"
+    nav5:
+      title: "Security Guide"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "What’s New"
+    learn_more: "Learn More"
+  footer:
+    third_party_forums: "Third Party Forums"
+    privacy_policy: "Privacy Policy"
+    terms_of_service: "Terms of Service"
+    about: "About"

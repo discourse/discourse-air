@@ -1,0 +1,89 @@
+ja:
+  theme_metadata:
+    description: "QNAPコミュニティテーマ"
+  adduser:
+    intro: "QNAPアカウント（QID）でサインインして、ソリューションを共有し、見つけましょう"
+    sign_in: "サインイン"
+    register: "登録"
+  status:
+    online_users: "オンラインユーザー"
+    posts: "投稿"
+  cards:
+    item1:
+      url: "https://blog.qnap.com"
+      title: "ブログ"
+      description: "QNAPの製品や技術に関するブログ投稿をお見逃しなく。"
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "ナレッジベース"
+      description: "ガイド、チュートリアル、専門家のヒントを探索して、QNAP製品を最大限に活用しましょう。"
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "リリースノート"
+      description: "最新のリリースでの新機能、改善点、バグ修正を発見しましょう。"
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "一般"
+      description: "NASの使用やユーザー体験に関する一般的なトピックについてコミュニティとつながりましょう。"
+    storage:
+      name: "ストレージ"
+      description: "個人ユーザーから企業まで、QNAPは多機能でスケーラブルなストレージソリューションを提供します。ハードウェアの推奨、ファイル管理戦略、データの整理技術など、ストレージソリューションについてのディスカッションに参加しましょう。"
+    backup-and-data-protection:
+      name: "バックアップとデータ保護"
+      description: "QNAPは、貴重な情報を保護するために、さまざまなバックアップソリューション、データ保護ソリューション、および災害復旧計画を提供します。"
+    cloud:
+      name: "クラウド"
+      description: "QNAPクラウドストレージの統合、同期、クラウドサービスなどに関連するトピックを探求しましょう。"
+    networking:
+      name: "ネットワーキング"
+      description: "QNAPの包括的なネットワーキングおよび仮想化ITソリューションを使用して、高速接続や仮想化ITルームを含む最先端のネットワークインフラを実現しましょう。"
+    surveillance:
+      name: "監視"
+      description: "QNAP NASを使用して包括的な監視システムを構築しましょう。QNAPのオールインワン監視ソリューションは、ソフトウェアとハードウェアを組み合わせており、その単一サービスはメンテナンスと修理を簡素化します。"
+    mobile-utility:
+      name: "モバイルアプリ & ユーティリティ"
+      description: "QNAPモバイルアプリとユーティリティを使用して、NASを便利に活用する新しい方法を発見しましょう。"
+    site-feedback:
+      name: "サイトフィードバック"
+      description: "コミュニティ機能のリクエスト、ディスカッション、バグ報告などのためのプライベートカテゴリ。トピックは管理者とモデレーターのみが閲覧できます。"
+    staff:
+      name: "スタッフ"
+      description: "スタッフディスカッションのためのプライベートカテゴリ。トピックは管理者とモデレーターのみが閲覧できます。"
+  search_banner:
+    headline: "QNAPコミュニティへようこそ"
+    subhead: "アイデアを共有し、学び、QNAP愛好者とつながりましょう"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "最新"
+      all: "すべてのトピック"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">新しいトピック</span>'
+  discussion_spaces:
+    title: "ディスカッションスペース"
+  navs:
+    nav1:
+      title: "ブログ"
+      url: "https://blog.qnap.com/jp/"
+    nav2:
+      title: "ナレッジベース"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "リリースノート"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "サポート"
+      url: "https://service.qnap.com/"
+    nav5:
+      title: "セキュリティガイド"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "新着情報"
+    learn_more: "もっと詳しく"
+  footer:
+    third_party_forums: "サードパーティフォーラム"
+    privacy_policy: "プライバシーポリシー"
+    terms_of_service: "利用規約"
+    about: "概要"

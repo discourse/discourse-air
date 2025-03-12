@@ -1,0 +1,24 @@
+<div class="q-container">
+  <div>
+    <h2>{{theme-i18n "news.title"}}</h2>
+    <ul class="news-content card-type">
+      {{#each this.news as |new|}}
+        <li>
+          <div>
+            <div class="new">
+              <div>
+                <figure>
+                  <img src="{{new.image_url}}" alt="{{new.title}}" />
+                </figure>
+                <div class="texts">
+                  <h3>{{new.title}}</h3>
+                </div>
+              </div>
+              <a href="https://www.qnap.com{{new.url}}" target="_blank">{{theme-i18n "news.learn_more"}} ⟩</a>
+            </div>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

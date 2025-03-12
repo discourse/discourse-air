@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-7df8fa0a-64b5-4b8f-bfa3-3aa065f673a8" data-name="圖層_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="41.5" style="fill: #fff;"/>
+  <line x1="10" y1="34.02" x2="90" y2="34.02" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <line x1="17.81" y1="28.28" x2="18.48" y2="28.28" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <path d="M54.53,79.95h29.72c3.18,0,5.75-2.57,5.75-5.75V27.7c0-3.18-2.57-5.75-5.75-5.75H15.75c-3.18,0-5.75,2.57-5.75,5.75v46.5c0,3.18,2.57,5.75,5.75,5.75h38.78Z" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <line x1="23.81" y1="28.28" x2="24.48" y2="28.28" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <line x1="29.81" y1="28.28" x2="30.48" y2="28.28" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <line x1="19.48" y1="59.89" x2="37.37" y2="59.89" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <line x1="19.48" y1="64.89" x2="37.37" y2="64.89" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <line x1="19.48" y1="70.89" x2="27.37" y2="70.89" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  <g>
+    <path d="M70.27,72.45l13.84-20.71c1.03-1.54.61-3.61-.92-4.64l-2.29-1.53c-1.54-1.03-3.61-.61-4.64.92l-13.84,20.71.69,7.73,7.16-2.48Z" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+    <line x1="64.09" y1="64.71" x2="71.94" y2="69.96" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+    <line x1="74.32" y1="49.41" x2="82.17" y2="54.65" style="fill: none; stroke: #49515c; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.4px;"/>
+  </g>
+  <g>
+    <path d="M19.22,53.73v-12h4.2c1.46,0,2.56.28,3.31.84.75.56,1.13,1.38,1.13,2.45,0,.59-.15,1.11-.45,1.55-.3.45-.72.78-1.26.98.62.15,1.1.46,1.45.93s.53,1.04.53,1.71c0,1.15-.37,2.03-1.1,2.62-.74.59-1.79.9-3.15.91h-4.66ZM21.69,46.76h1.83c1.25-.02,1.87-.52,1.87-1.49,0-.54-.16-.94-.47-1.17-.32-.24-.81-.36-1.5-.36h-1.73v3.02ZM21.69,48.5v3.24h2.12c.58,0,1.04-.14,1.36-.42.33-.28.49-.66.49-1.15,0-1.1-.57-1.66-1.71-1.67h-2.27Z" style="fill: #0074e1;"/>
+    <path d="M32.46,51.74h5.25v1.99h-7.72v-12h2.47v10.01Z" style="fill: #0074e1;"/>
+    <path d="M48.46,48c0,1.18-.21,2.22-.63,3.11-.42.89-1.01,1.58-1.79,2.06-.78.48-1.67.73-2.67.73s-1.88-.24-2.66-.72c-.78-.48-1.38-1.16-1.81-2.05-.43-.89-.65-1.91-.65-3.06v-.59c0-1.18.21-2.22.64-3.12s1.03-1.59,1.8-2.07,1.67-.72,2.67-.72,1.89.24,2.67.72,1.38,1.17,1.8,2.07.64,1.94.64,3.11v.54ZM45.95,47.46c0-1.26-.23-2.21-.68-2.87-.45-.65-1.09-.98-1.93-.98s-1.47.32-1.92.97c-.45.65-.68,1.59-.68,2.84v.58c0,1.23.23,2.18.68,2.85s1.1,1.01,1.94,1.01,1.47-.33,1.91-.98.67-1.6.68-2.85v-.59Z" style="fill: #0074e1;"/>
+    <path d="M59.75,52.21c-.45.53-1.07.95-1.89,1.24-.81.29-1.71.44-2.7.44-1.04,0-1.95-.23-2.73-.68-.78-.45-1.39-1.11-1.81-1.97-.43-.86-.64-1.88-.66-3.04v-.82c0-1.2.2-2.23.61-3.11.4-.88.99-1.55,1.75-2.01.76-.46,1.65-.7,2.67-.7,1.42,0,2.54.34,3.34,1.02s1.28,1.67,1.43,2.96h-2.41c-.11-.69-.35-1.19-.73-1.51-.38-.32-.89-.48-1.55-.48-.84,0-1.48.32-1.92.95s-.66,1.57-.67,2.82v.77c0,1.26.24,2.21.72,2.85s1.18.96,2.1.96,1.59-.2,1.99-.59v-2.07h-2.25v-1.82h4.72v4.79Z" style="fill: #0074e1;"/>
+  </g>
+</svg>

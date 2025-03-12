@@ -39,5 +39,21 @@
       "hover": "535353"
     }
   },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+  "screenshots": ["screenshots/light.png", "screenshots/dark.png"],
+  "assets": {
+    "blogLogo": "assets/images/icon-blog.svg",
+    "knowledgeLogo": "assets/images/icon-knowledge.svg",
+    "releaseLogo": "assets/images/icon-release.svg",
+    "czLogo": "assets/images/flag-cz.svg",
+    "deLogo": "assets/images/flag-de.svg",
+    "esLogo": "assets/images/flag-es.svg",
+    "krLogo": "assets/images/flag-kr.svg",
+    "plLogo": "assets/images/flag-pl.svg",
+    "seLogo": "assets/images/flag-se.svg",
+    "nlLogo": "assets/images/flag-nl.svg",
+    "frLogo": "assets/images/flag-fr.svg",
+    "huLogo": "assets/images/flag-hu.svg",
+    "itLogo": "assets/images/flag-it.svg",
+    "kvBackGround": "assets/images/QNAP-Community-kv.png"
+  }
 }

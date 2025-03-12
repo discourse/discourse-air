@@ -1,0 +1,89 @@
+hu:
+  theme_metadata:
+    description: "QNAP Közösségi Téma"
+  adduser:
+    intro: "Jelentkezzen be QNAP-fiókjával (QID), hogy megossza és megtalálja a megoldásokat"
+    sign_in: "Bejelentkezés"
+    register: "Regisztráció"
+  status:
+    online_users: "Online felhasználók"
+    posts: "Bejegyzések"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Maradjon naprakész a QNAP termékekkel és technológiákkal kapcsolatos blogbejegyzésekkel."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Tudásbázis"
+      description: "Fedezze fel az útmutatókat, oktatóanyagokat és szakértői tippeket, hogy a legtöbbet hozza ki QNAP termékeiből."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Kiadási Megjegyzések"
+      description: "Ismerje meg a legújabb funkciókat, fejlesztéseket és hibajavításokat a legfrissebb kiadásokban."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Általános"
+      description: "Kapcsolódjon a közösséghez, hogy általános témákat beszéljen meg a NAS használatáról és a felhasználói élményről."
+    storage:
+      name: "Tárolás"
+      description: "A személyes felhasználóktól a vállalatokig, a QNAP sokoldalú és skálázható tárolási megoldásokat kínál. Beszélje meg részletesen a tárolási megoldásokat, beleértve a hardverajánlásokat, a fájlkezelési stratégiákat és az adatkezelési technikákat."
+    backup-and-data-protection:
+      name: "Biztonsági Mentés és Adatvédelem"
+      description: "A QNAP különféle biztonsági mentési megoldásokat, adatvédelmi megoldásokat és katasztrófa-helyreállítási terveket kínál, hogy megvédje értékes adatait."
+    cloud:
+      name: "Felhő"
+      description: "Fedezze fel a QNAP felhőtárolási integrációval, szinkronizálással és felhőszolgáltatásokkal kapcsolatos témákat."
+    networking:
+      name: "Hálózat"
+      description: "Hozza létre a legmodernebb hálózati infrastruktúrát a QNAP átfogó hálózati és virtualizációs megoldásaival, beleértve a nagy sebességű kapcsolatokat és a virtualizált IT környezeteket."
+    surveillance:
+      name: "Megfigyelés"
+      description: "Építsen egy átfogó megfigyelőrendszert a QNAP NAS segítségével. A QNAP egyablakos megfigyelési megoldásai hardver és szoftver kombinációját kínálják, amelyek egyszerűsítik a karbantartást és javítást."
+    mobile-utility:
+      name: "Mobil Alkalmazások & Eszközök"
+      description: "Fedezze fel a NAS használatának új módjait és kényelmi módszereit a QNAP mobil alkalmazásai és eszközei segítségével."
+    site-feedback:
+      name: "Weboldal Visszajelzés"
+      description: "Egy privát kategória közösségi funkciókérésekhez, megbeszélésekhez és hibajelentésekhez. A témák csak az adminisztrátorok és moderátorok számára láthatók."
+    staff:
+      name: "Munkatársak"
+      description: "Egy privát kategória a munkatársak megbeszéléseihez. A témák csak az adminisztrátorok és moderátorok számára láthatók."
+  search_banner:
+    headline: "Üdvözöljük a QNAP Közösségben"
+    subhead: "Csatlakozzon hozzánk, ossza meg ötleteit, tanuljon és kapcsolódjon QNAP rajongókhoz"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Legújabb"
+      all: "Összes téma"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Új Téma</span>'
+  discussion_spaces:
+    title: "Megbeszélési Terek"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Tudásbázis"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Kiadási Megjegyzések"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Támogatás"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Biztonsági Útmutató"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Hírek"
+    learn_more: "Tudjon meg többet"
+  footer:
+    third_party_forums: "Harmadik Fél Fórumai"
+    privacy_policy: "Adatvédelmi Szabályzat"
+    terms_of_service: "Szolgáltatási Feltételek"
+    about: "Rólunk"

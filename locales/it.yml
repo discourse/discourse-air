@@ -1,0 +1,90 @@
+it:
+  theme_metadata:
+    description: "Tema della Community di QNAP"
+  adduser:
+    intro: "Accedi con il tuo account QNAP (QID) per condividere e trovare soluzioni"
+    sign_in: "Accedi"
+    register: "Registrati"
+  status:
+    online_users: "Utenti online"
+    posts: "Post"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Rimani aggiornato con post sul blog relativi a prodotti e tecnologie QNAP."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Knowledge Base"
+      description: "Esplora guide, tutorial e suggerimenti di esperti per sfruttare al massimo i tuoi prodotti QNAP."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Note di Rilascio"
+      description: "Scopri le ultime funzionalità, miglioramenti e correzioni di bug nelle nostre versioni più recenti."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Generale"
+      description: "Collegati con la community per discutere di argomenti generali sull'uso del NAS e l'esperienza utente."
+    storage:
+      name: "Archiviazione"
+      description: "Da utenti privati a aziende, QNAP offre soluzioni di archiviazione versatili e scalabili. Approfondisci le soluzioni di archiviazione, inclusi consigli hardware, strategie di gestione dei file e tecniche di organizzazione dei dati."
+    backup-and-data-protection:
+      name: "Backup e Protezione Dati"
+      description: "QNAP offre una gamma di soluzioni di backup e protezione dei dati, oltre a piani di ripristino in caso di disastro, per proteggere le tue informazioni preziose."
+    cloud:
+      name: "Cloud"
+      description: "Esplora argomenti relativi all'integrazione del cloud storage di QNAP, alla sincronizzazione e ai servizi cloud."
+    networking:
+      name: "Reti"
+      description: "Ottieni un'infrastruttura di rete all'avanguardia con le soluzioni complete di rete e virtualizzazione di QNAP, incluse le connessioni ad alta velocità e gli ambienti IT virtualizzati."
+    surveillance:
+      name: "Sorveglianza"
+      description: "Costruisci un sistema di sorveglianza completo con QNAP NAS. Le soluzioni di sorveglianza all-in-one di QNAP combinano hardware e software per semplificare la manutenzione e le riparazioni."
+    mobile-utility:
+      name: "App Mobili & Utilità"
+      description: "Scopri nuovi modi e metodi pratici per utilizzare il tuo NAS con le app mobili e gli strumenti di QNAP."
+    site-feedback:
+      name: "Feedback del Sito"
+      description: "Una categoria privata per richieste di funzionalità della community, discussioni e segnalazioni di bug. Gli argomenti sono visibili solo agli amministratori e ai moderatori."
+    staff:
+      name: "Personale"
+      description: "Una categoria privata per le discussioni dello staff. Gli argomenti sono visibili solo agli amministratori e ai moderatori."
+  search_banner:
+    headline: "Benvenuto nella Community di QNAP"
+    subhead: "Unisciti a noi per condividere idee, imparare e connetterti con gli appassionati di QNAP"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Ultimi"
+      all: "Tutti i temi"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Nuovo Argomento</span>'
+  discussion_spaces:
+    title: "Spazi di Discussione"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Knowledge Base"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Note di Rilascio"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Supporto"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Guida alla Sicurezza"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Notizie"
+    learn_more: "Scopri di più"
+  footer:
+    third_party_forums: "Forum di terze parti"
+    privacy_policy: "Informativa sulla privacy"
+    terms_of_service: "Termini di servizio"
+    about: "Informazioni"
+

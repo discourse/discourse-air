@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-cff4f61d-befe-4262-b9f7-59e614744604" data-name="_x38_6b061ad-ee6b-4fd7-852c-742483397385" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M0,12c0,4.69,2.73,8.95,7,10.9V1.09C2.73,3.05,0,7.31,0,12Z" style="fill: #009246;"/>
+  <path d="M24,12c0-4.69-2.73-8.95-7-10.91v21.81c4.26-1.95,7-6.21,7-10.9Z" style="fill: #ae1c28;"/>
+  <path d="M12,0c-1.73,0-3.43.37-5,1.09v21.81c3.17,1.46,6.83,1.46,10,0V1.09C15.43.37,13.73,0,12,0Z" style="fill: #fff;"/>
+</svg>

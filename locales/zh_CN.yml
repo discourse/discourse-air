@@ -1,0 +1,89 @@
+zh_CN:
+  theme_metadata:
+    description: "QNAP 社区主题"
+  adduser:
+    intro: "使用您的 QNAP 账户 (QID) 登录，以分享和寻找解决方案"
+    sign_in: "登录"
+    register: "注册"
+  status:
+    online_users: "在线用户"
+    posts: "帖子"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "博客"
+      description: "随时关注有关 QNAP 产品和技术的博客文章。"
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com.cn/zh-cn/how-to/search"
+      title: "知识库"
+      description: "探索指南、教程和专家提示，充分利用您的 QNAP 产品。"
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com.cn/zh-cn/release-notes/"
+      title: "版本说明"
+      description: "了解我们最新版本中的最新功能、改进和错误修复。"
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "常规"
+      description: "与社区连接，讨论有关 NAS 使用和用户体验的常规话题。"
+    storage:
+      name: "存储"
+      description: "从个人用户到企业，QNAP 提供多功能且可扩展的存储解决方案。深入讨论存储解决方案，包括硬件推荐、文件管理策略和数据组织技术。"
+    backup-and-data-protection:
+      name: "备份与数据保护"
+      description: "QNAP 提供各种备份解决方案、数据保护解决方案和灾难恢复计划，以保护您的宝贵信息。"
+    cloud:
+      name: "云"
+      description: "探索与 QNAP 云存储集成、同步、云服务等相关话题。"
+    networking:
+      name: "网络"
+      description: "通过 QNAP 的综合网络和虚拟化 IT 解决方案，实现尖端的网络基础设施，包括高速连接和虚拟化 IT 环境。"
+    surveillance:
+      name: "监控"
+      description: "使用 QNAP NAS 构建全面的监控系统。QNAP 的一体化监控解决方案结合了硬件和软件，简化了维护和修理。"
+    mobile-utility:
+      name: "移动应用 & 工具"
+      description: "通过 QNAP 的移动应用和工具，发现使用 NAS 的新方式和便捷方法。"
+    site-feedback:
+      name: "网站反馈"
+      description: "私人类别，供社区功能请求、讨论和错误报告使用。话题仅管理员和版主可见。"
+    staff:
+      name: "员工"
+      description: "私人类别，用于员工讨论。话题仅管理员和版主可见。"
+  search_banner:
+    headline: "欢迎来到 QNAP 社区"
+    subhead: "加入我们，分享想法、学习并与 QNAP 爱好者联系"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "最新"
+      all: "所有话题"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">新话题</span>'
+  discussion_spaces:
+    title: "讨论空间"
+  navs:
+    nav1:
+      title: "博客"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "知识库"
+      url: "https://www.qnap.com.cn/zh-cn/how-to/search"
+    nav3:
+      title: "版本说明"
+      url: "https://www.qnap.com.cn/zh-cn/release-notes"
+    nav4:
+      title: "支持"
+      url: "https://service.qnap.com.cn"
+    nav5:
+      title: "安全指南"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "最新消息"
+    learn_more: "了解更多"
+  footer:
+    third_party_forums: "第三方论坛"
+    privacy_policy: "隐私政策"
+    terms_of_service: "服务条款"
+    about: "关于"

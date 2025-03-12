@@ -1,0 +1,89 @@
+pl_PL:
+  theme_metadata:
+    description: "Motyw Społeczności QNAP"
+  adduser:
+    intro: "Zaloguj się na swoje konto QNAP (QID), aby udostępniać i znajdować rozwiązania"
+    sign_in: "Zaloguj się"
+    register: "Zarejestruj się"
+  status:
+    online_users: "Użytkownicy online"
+    posts: "Posty"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Bądź na bieżąco z postami na blogu dotyczącymi produktów i technologii QNAP."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Baza Wiedzy"
+      description: "Odkrywaj poradniki, samouczki i wskazówki ekspertów, aby w pełni wykorzystać produkty QNAP."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Notatki Wydania"
+      description: "Dowiedz się więcej o najnowszych funkcjach, ulepszeniach i poprawkach w naszych najnowszych wydaniach."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Ogólne"
+      description: "Połącz się ze społecznością, aby omówić ogólne tematy dotyczące korzystania z NAS i doświadczeń użytkowników."
+    storage:
+      name: "Przechowywanie"
+      description: "Od użytkowników prywatnych po firmy, QNAP oferuje wszechstronne i skalowalne rozwiązania do przechowywania danych. Omów rozwiązania do przechowywania, w tym zalecenia dotyczące sprzętu, strategie zarządzania plikami i techniki organizacji danych."
+    backup-and-data-protection:
+      name: "Kopie Zapasowe i Ochrona Danych"
+      description: "QNAP oferuje szeroką gamę rozwiązań do tworzenia kopii zapasowych, ochrony danych i planów odzyskiwania danych po awarii, aby chronić Twoje cenne informacje."
+    cloud:
+      name: "Chmura"
+      description: "Odkrywaj tematy związane z integracją chmury QNAP, synchronizacją i usługami chmurowymi."
+    networking:
+      name: "Sieci"
+      description: "Osiągnij zaawansowaną infrastrukturę sieciową dzięki kompleksowym rozwiązaniom sieciowym i wirtualizacyjnym QNAP, w tym szybkim połączeniom i zwirtualizowanym środowiskom IT."
+    surveillance:
+      name: "Nadzór"
+      description: "Zbuduj kompleksowy system nadzoru z QNAP NAS. Zintegrowane rozwiązania nadzoru QNAP łączą sprzęt i oprogramowanie, upraszczając konserwację i naprawy."
+    mobile-utility:
+      name: "Aplikacje Mobilne & Narzędzia"
+      description: "Odkryj nowe sposoby i wygodne metody korzystania z NAS dzięki aplikacjom mobilnym i narzędziom QNAP."
+    site-feedback:
+      name: "Opinie o Stronie"
+      description: "Prywatna kategoria dla żądań funkcji społeczności, dyskusji i raportów o błędach. Tematy widoczne tylko dla administratorów i moderatorów."
+    staff:
+      name: "Personel"
+      description: "Prywatna kategoria do dyskusji personelu. Tematy widoczne tylko dla administratorów i moderatorów."
+  search_banner:
+    headline: "Witamy w Społeczności QNAP"
+    subhead: "Dołącz do nas, aby dzielić się pomysłami, uczyć się i łączyć z entuzjastami QNAP"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Najnowsze"
+      all: "Wszystkie tematy"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Nowy Temat</span>'
+  discussion_spaces:
+    title: "Przestrzenie Dyskusyjne"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Baza Wiedzy"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Notatki Wydania"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Wsparcie"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Przewodnik Bezpieczeństwa"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Aktualności"
+    learn_more: "Dowiedz się więcej"
+  footer:
+    third_party_forums: "Fora zewnętrzne"
+    privacy_policy: "Polityka prywatności"
+    terms_of_service: "Warunki korzystania z usługi"
+    about: "O nas"

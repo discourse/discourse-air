@@ -1,0 +1,89 @@
+vi:
+  theme_metadata:
+    description: "Chủ đề cộng đồng QNAP"
+  adduser:
+    intro: "Đăng nhập bằng tài khoản QNAP (QID) của bạn để chia sẻ và tìm giải pháp"
+    sign_in: "Đăng nhập"
+    register: "Đăng ký"
+  status:
+    online_users: "Người dùng trực tuyến"
+    posts: "Bài viết"
+  cards:
+    item1:
+      url: "https://blog.qnap.com/"
+      title: "Blog"
+      description: "Cập nhật các bài viết blog về sản phẩm và công nghệ QNAP."
+      icon: "blogLogo"
+    item2:
+      url: "https://www.qnap.com/go/how-to/search"
+      title: "Cơ sở tri thức"
+      description: "Khám phá các hướng dẫn, bài hướng dẫn và mẹo từ chuyên gia để tận dụng tối đa các sản phẩm QNAP của bạn."
+      icon: "knowledgeLogo"
+    item3:
+      url: "https://www.qnap.com/go/release-notes/"
+      title: "Ghi chú phát hành"
+      description: "Tìm hiểu các tính năng mới nhất, cải tiến và sửa lỗi trong các bản phát hành mới nhất của chúng tôi."
+      icon: "releaseLogo"
+  category:
+    general:
+      name: "Chung"
+      description: "Kết nối với cộng đồng để thảo luận về các chủ đề chung về việc sử dụng NAS và trải nghiệm người dùng."
+    storage:
+      name: "Lưu trữ"
+      description: "Từ người dùng cá nhân đến doanh nghiệp, QNAP cung cấp các giải pháp lưu trữ đa dạng và có thể mở rộng. Thảo luận chi tiết về các giải pháp lưu trữ, bao gồm các đề xuất về phần cứng, chiến lược quản lý tệp và kỹ thuật tổ chức dữ liệu."
+    backup-and-data-protection:
+      name: "Sao lưu và Bảo vệ Dữ liệu"
+      description: "QNAP cung cấp nhiều giải pháp sao lưu, bảo vệ dữ liệu và các kế hoạch khôi phục sau thảm họa để bảo vệ thông tin quý giá của bạn."
+    cloud:
+      name: "Đám mây"
+      description: "Khám phá các chủ đề liên quan đến tích hợp lưu trữ đám mây QNAP, đồng bộ hóa và các dịch vụ đám mây."
+    networking:
+      name: "Mạng"
+      description: "Đạt được cơ sở hạ tầng mạng tiên tiến với các giải pháp mạng và ảo hóa toàn diện của QNAP, bao gồm kết nối tốc độ cao và môi trường IT ảo hóa."
+    surveillance:
+      name: "Giám sát"
+      description: "Xây dựng một hệ thống giám sát toàn diện với QNAP NAS. Các giải pháp giám sát all-in-one của QNAP kết hợp phần cứng và phần mềm, đơn giản hóa việc bảo trì và sửa chữa."
+    mobile-utility:
+      name: "Ứng dụng di động & Tiện ích"
+      description: "Khám phá những cách mới và phương pháp thuận tiện để sử dụng NAS của bạn với các ứng dụng di động và tiện ích của QNAP."
+    site-feedback:
+      name: "Phản hồi trang web"
+      description: "Một danh mục riêng tư dành cho yêu cầu tính năng của cộng đồng, thảo luận và báo cáo lỗi. Các chủ đề chỉ hiển thị cho quản trị viên và người điều hành."
+    staff:
+      name: "Nhân viên"
+      description: "Một danh mục riêng tư cho các cuộc thảo luận của nhân viên. Các chủ đề chỉ hiển thị cho quản trị viên và người điều hành."
+  search_banner:
+    headline: "Chào mừng đến với Cộng đồng QNAP"
+    subhead: "Tham gia cùng chúng tôi để chia sẻ ý tưởng, học hỏi và kết nối với những người đam mê QNAP"
+    search_button_text: ""
+  features_list:
+    latest:
+      status: "Mới nhất"
+      all: "Tất cả các chủ đề"
+      new: '<svg class="fa d-icon d-icon-plus svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use href="#plus"></use></svg> <span class="d-button-label">Chủ đề mới</span>'
+  discussion_spaces:
+    title: "Không gian thảo luận"
+  navs:
+    nav1:
+      title: "Blog"
+      url: "https://blog.qnap.com"
+    nav2:
+      title: "Cơ sở tri thức"
+      url: "https://www.qnap.com/go/how-to/search"
+    nav3:
+      title: "Ghi chú phát hành"
+      url: "https://www.qnap.com/go/release-notes/"
+    nav4:
+      title: "Hỗ trợ"
+      url: "https://service.qnap.com"
+    nav5:
+      title: "Hướng dẫn Bảo mật"
+      url: "https://view.publitas.com/qnap-1/2022_security_guide_en/page/1"
+  news:
+    title: "Tin tức"
+    learn_more: "Tìm hiểu thêm"
+  footer:
+    third_party_forums: "Diễn đàn bên thứ ba"
+    privacy_policy: "Chính sách bảo mật"
+    terms_of_service: "Điều khoản dịch vụ"
+    about: "Về chúng tôi"
