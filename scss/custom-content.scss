@@ -1,3 +1,214 @@
+.discourse-theme--q {
+    #main-outlet-wrapper {
+      .sidebar-wrapper {
+        background-color: #ffffff;
+      }
+      .sidebar-footer-wrapper {
+        background: #ffffff;
+      }
+    }
+    .topic-list-item,
+    tr {
+      border-bottom: 0;
+    }
+
+    .full-width .contents .topic-list .topic-list-body .topic-list-item.visited {
+      border: 0;
+    }
+    .full-width .contents .topic-list .topic-list-body .topic-list-item {
+      background-color: $homepageBlockBg;
+      border: 0px;
+      box-shadow: inherit;
+      margin-bottom: 0.75rem;
+    }
+
+    .full-width .contents .topic-list .topic-list-body .topic-list-item:hover {
+      background-color: #f8f8fa;
+      box-shadow: inherit;
+      border: 0;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .list-controls .combo-box .combo-box-header {
+      border: 0px;
+      background-color: #f5f5f8;
+    }
+
+    .topic-body {
+      width: 100%;
+    }
+
+    .signup-cta {
+      width: 100%;
+    }
+
+    #topic-title h1 {
+      margin-bottom: 10px;
+    }
+
+    .topic-avatar {
+      margin-right: 12px;
+    }
+
+    .names span.first {
+      background: #f5f5f8;
+      padding: 5px 8px;
+      border-radius: 6px;
+    }
+
+    .topic-meta-data .post-infos {
+      background: #f2f2f5;
+      padding: 5px 8px;
+      border-radius: 6px;
+    }
+
+    .signup-cta,
+    #topic-footer-buttons,
+    .more-topics__container {
+      max-width: inherit;
+    }
+
+    .container.posts {
+      display: flex;
+      flex-direction: row-reverse;
+      > .row {
+        width: 100%;
+      }
+    }
+
+    .category-heading {
+      display: flex;
+      align-items: center;
+      p {
+        width: calc(100% - 150px - 2em);
+      }
+    }
+
+    ul#navigation-bar li.posted {
+      display: none;
+    }
+
+    .featured-lists__wrapper.above-main-container {
+      margin-bottom: 0;
+    }
+
+    .featured-lists__list-header h2 {
+      font-size: 1rem;
+      font-weight: normal;
+      color: $custom-primary;
+      padding: 0.65em 0.75em;
+      border-bottom: 3px solid $custom-primary;
+    }
+
+    .topic-navigation {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+    .post-translation{
+      .lightbox-wrapper{
+          position: relative;
+      }
+    }
+
+    .two-rows.extra-info-wrapper+.before-header-panel-outlet{
+      display: none;
+    }
+
+    .two-rows.extra-info-wrapper+.before-header-panel-outlet+.panel .header-locale-selector-widget{
+      display: none;
+    }
+
+    .header-locale-selector{
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    //animation fadeInDown
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .custom-search-banner-wrap{
+      h1,p,.search-menu,.status-content {
+          opacity: 0;
+      }
+      &.active {
+          h1{
+              animation: fadeInDown .4s ease-in .2s forwards;
+          }
+          p{
+              animation: fadeInDown .4s ease-in .4s forwards;
+          }
+          .search-menu {
+              animation: fadeInDown .5s ease-in .6s forwards;
+              z-index: 1;
+          }
+          .status-content {
+              animation: fadeInDown .5s ease-in .8s forwards;
+              z-index: 0;
+          }
+      }
+    }
+
+    .user-preferences .form-vertical .control-group.home{
+      display: none;
+    }
+
+    .custom-search-banner{
+      background-image:url($kvBackGround);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .featured-lists__list-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0 .5rem;
+      a{
+          margin-left: auto;
+      }
+    }
+  }
+
+
+#user-content {
+    .user-preferences .form-vertical {
+      width: 100%;
+    }
+    .signature-preferences .signatures .d-editor-container {
+      display: block;
+
+    }
+    .signature-preferences .signatures .d-editor-textarea-column {
+      height: 300px;
+    }
+    .signature-preferences .signatures .d-editor-textarea-column textarea.d-editor-input {
+      height: 300px;
+      max-height: 80%;
+      min-height: 100px;
+    }
+  }
+
+  // fix display flickering issue https://community.qnap.com/t/forum-display-bug/476
+  html.discourse-touch {
+    #topic-progress-wrapper,
+    section.topic-map__contents {
+      display: none;
+    }
+  }
+
 body.has-sidebar-page div.wrap,
 .wrap {
   max-width: inherit;
