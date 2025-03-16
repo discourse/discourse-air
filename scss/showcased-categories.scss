@@ -1,27 +1,5 @@
-.showcased-categories-sidebar .two-topic-list-sidebar {
-  .topic-excerpt {
-    display: none;
-  }
-
-  .btn-link.posts-map.badge-posts {
-    display: block;
-  }
-
-  .two-topic-list-sidebar .topic-list .topic-list-item {
-    height: unset;
-  }
-}
-
 .showcased-categories-sidebar {
-  .full-width .contents .topic-list {
-    display: unset;
-  }
-
   .two-topic-list-sidebar {
-    .topic-excerpt {
-      display: none;
-    }
-
     .btn-link.posts-map.badge-posts {
       display: block;
     }
@@ -29,5 +7,13 @@
     .topic-list .topic-list-item {
       height: unset;
     }
+
+    .topic-excerpt {
+      display: none;
+    }
+  }
+
+  .full-width .contents .topic-list {
+    display: unset;
   }
 }
