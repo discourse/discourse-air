@@ -4,6 +4,7 @@
   h1 {
     font-size: 2.5em !important;
   }
+
   p {
     font-weight: normal;
     font-size: $font-up-1;
@@ -11,20 +12,30 @@
 }
 
 html
-  body:not(.static-tos):not(.static-faq):not(.static-privacy):not(
-    .about-page
-  ):not(.static-faq):not(.badges-page):not(.tags-page):not(
-    .archetype-banner
-  ):not(.archetype-regular):not(.archetype-private_message):not(
-    .admin-interface
-  ):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(
-    .user-invites-page
-  ):not(.user-preferences-page):not(.user-messages-page):not(
-    .user-notifications-page
-  ):not(.user-badges-page)
+  body:not(
+    .static-tos,
+    .static-faq,
+    .static-privacy,
+    .about-page,
+    .static-faq,
+    .badges-page,
+    .tags-page,
+    .archetype-banner,
+    .archetype-regular,
+    .archetype-private_message,
+    .admin-interface,
+    .edit-category,
+    .user-summary-page,
+    .user-activity-page,
+    .user-invites-page,
+    .user-preferences-page,
+    .user-messages-page,
+    .user-notifications-page,
+    .user-badges-page
+  )
   #main-outlet {
   width: calc(100% - 1em);
-  padding: 0em 0.5em 1em 0.5em;
+  padding: 0 0.5em 1em 0.5em;
   box-shadow: none;
   background-color: transparent;
 }
@@ -57,10 +68,10 @@ html body.user-messages-page #main-outlet,
 html body.user-notifications-page #main-outlet,
 html body.user-badges-page #main-outlet,
 html body.staff:not(.navigation-topics) #main-outlet {
-  border-radius: 0px;
+  border-radius: 0;
   width: calc(100% - 3em);
   background-color: var(--secondary);
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .container.posts > .row {
@@ -69,7 +80,7 @@ html body.staff:not(.navigation-topics) #main-outlet {
 
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
-  border-bottom: 0px !important;
+  border-bottom: 0 !important;
 }
 
 body.category .category-breadcrumb .select-kit-header,
@@ -98,16 +109,18 @@ ol.category-breadcrumb {
     border-radius: 8px;
     border: none;
     background-color: var(--secondary);
+
     a:hover,
     a:focus {
       color: var(--primary);
       background-color: var(--secondary);
     }
   }
+
   .drop {
     top: calc(100% + 0.5em);
     border-radius: 8px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -150,7 +163,7 @@ ol.category-breadcrumb {
   background: var(--secondary);
   padding: 1em;
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 0.5em;
 }
@@ -170,7 +183,7 @@ ol.category-breadcrumb {
 .full-width .contents .topic-list .topic-list-header tr {
   background-color: var(--secondary);
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 1em;
 }
@@ -183,6 +196,7 @@ ol.category-breadcrumb {
   > .topic-list-data {
     width: 100%;
   }
+
   .discourse-tags {
     order: 3;
     width: 100%;
@@ -192,6 +206,7 @@ ol.category-breadcrumb {
 
 .full-width .contents .topic-list .topic-list-item .posts-map {
   padding: 0;
+
   .number {
     margin: 0;
   }
@@ -212,18 +227,20 @@ ol.category-breadcrumb {
 }
 
 // default category list styles when the modern category boxes theme component isn't used
-
 .category-list-item.category {
   background: var(--secondary);
   border-radius: 1em;
+
   tbody {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   td {
     width: 100%;
   }
+
   .num.posts {
     padding-right: 0.25em;
   }
