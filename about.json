@@ -1,7 +1,7 @@
 {
   "name": "Air Theme",
   "assets": {
-    "javascripts/discourse/initializers/remove-signup-button.js.es6": "discourse"
+    "javascripts/common/remove-signup-button.js": "common"
   },
   "about_url": "https://meta.discourse.org/t/discourse-air-theme/197703",
   "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
