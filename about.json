@@ -1,5 +1,8 @@
 {
   "name": "Air Theme",
+  "assets": {
+    "javascripts/discourse/initializers/custom-signup-button.js.es6": "discourse"
+  },
   "about_url": "https://meta.discourse.org/t/discourse-air-theme/197703",
   "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
   "components": [
@@ -36,5 +39,8 @@
       "love": "c16ad7"
     }
   },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+  "screenshots": [
+    "screenshots/light.png",
+    "screenshots/dark.png"
+  ]
 }
