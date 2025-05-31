@@ -1,3 +1,5 @@
+@use "lib/viewport";
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -7,7 +9,7 @@
   h1 {
     line-height: var(--line-height-small);
 
-    @include breakpoint("large", min-width) {
+    @include viewport.from(lg) {
       font-size: 4em;
     }
   }
@@ -16,7 +18,7 @@
     margin-top: 0.5em;
     margin-bottom: 2em;
 
-    @include breakpoint("large", min-width) {
+    @include viewport.from(lg) {
       font-size: var(--font-up-1);
     }
   }
@@ -31,15 +33,15 @@
     min-height: 40px;
 
     &:focus {
-      outline: 3px solid rgba(var(--primary-rgb), 0.35);
+      outline: 3px solid rgb(var(--primary-rgb), 0.35);
     }
   }
 
   .widget-link.show-help {
-    color: rgba(var(--primary-rgb), 0.75);
+    color: rgb(var(--primary-rgb), 0.75);
     border-radius: 0.5em;
     padding: 0.5em;
-    background-color: rgba(var(--secondary-rgb), 0.25);
+    background-color: rgb(var(--secondary-rgb), 0.25);
 
     &:hover {
       color: var(--primary);
@@ -199,7 +201,7 @@ div.ac-wrap {
 }
 
 .d-header {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0, 0.06);
 }
 
 .d-header-icons .d-icon {
@@ -242,7 +244,7 @@ div.ac-wrap {
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
-  background-color: rgba(var(--tertiary-rgb), 0.5);
+  background-color: rgb(var(--tertiary-rgb), 0.5);
 }
 
 .btn:not(.themes-tab, .components-tab),
@@ -274,8 +276,8 @@ html {
     background:
       linear-gradient(
         0deg,
-        rgba(var(--primary-rgb), 0.075) 0%,
-        rgba(var(--primary-rgb), 0.075) 100%
+        rgb(var(--primary-rgb), 0.075) 0%,
+        rgb(var(--primary-rgb), 0.075) 100%
       ),
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
@@ -308,21 +310,21 @@ html body #main-outlet {
   max-width: 1150px;
   padding-bottom: 5% !important; // overriding inline style
   box-shadow:
-    0 24px 40px rgba(0, 0, 0, 0.07),
-    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
+    0 24px 40px rgb(0, 0, 0, 0.07),
+    0 10.8529px 24.1177px rgb(0, 0, 0, 0.0456112),
+    0 4.50776px 10.0172px rgb(0, 0, 0, 0.035),
+    0 1.63037px 3.62304px rgb(0, 0, 0, 0.0243888);
 
-  @media screen and (max-width: 700px) {
+  @media screen and (width <= 700px) {
     padding: 1.5em;
     margin-top: 0;
   }
 
-  @media screen and (max-width: 1120px) {
+  @media screen and (width <= 1120px) {
     width: 80%;
   }
 
-  @media screen and (max-width: 1075px) {
+  @media screen and (width <= 1075px) {
     width: 85%;
   }
 
@@ -411,22 +413,22 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 1px solid rgba(var(--primary-rgb), 0.2);
+      border: 1px solid rgb(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 8px rgb(0, 0, 0, 0.05);
       overflow: hidden;
 
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb), 0.1);
+        border: 1px solid rgb(var(--primary-rgb), 0.1);
 
         .discourse-tag {
           opacity: 0.75;
         }
 
         &:hover {
-          border: 1px solid rgba(var(--primary-rgb), 0.25);
+          border: 1px solid rgb(var(--primary-rgb), 0.25);
 
           .discourse-tag {
             opacity: 1;
@@ -436,8 +438,8 @@ html body #main-outlet {
 
       &:hover {
         background-color: var(--secondary);
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-        border: 1px solid rgba(var(--primary-rgb), 0.3);
+        box-shadow: 0 0 12px rgb(0, 0, 0, 0.1);
+        border: 1px solid rgb(var(--primary-rgb), 0.3);
 
         a.title:not(.badge-notification),
         a.topic-excerpt {
@@ -590,10 +592,10 @@ html body #main-outlet {
   border-radius: 1em;
   padding: 3em 3em 5%;
   box-shadow:
-    0 24px 40px rgba(0, 0, 0, 0.07),
-    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
+    0 24px 40px rgb(0, 0, 0, 0.07),
+    0 10.8529px 24.1177px rgb(0, 0, 0, 0.0456112),
+    0 4.50776px 10.0172px rgb(0, 0, 0, 0.035),
+    0 1.63037px 3.62304px rgb(0, 0, 0, 0.0243888);
   z-index: 1;
   position: relative;
 }
