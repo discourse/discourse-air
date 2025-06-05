@@ -7,10 +7,10 @@
     top: calc(var(--header-offset) + 30px);
     height: calc(100vh - (var(--header-offset) + 80px));
     box-shadow:
-      0 24px 40px rgba(0, 0, 0, 0.07),
-      0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-      0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-      0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
+      0 24px 40px rgb(0, 0, 0, 0.07),
+      0 10.8529px 24.1177px rgb(0, 0, 0, 0.0456112),
+      0 4.50776px 10.0172px rgb(0, 0, 0, 0.035),
+      0 1.63037px 3.62304px rgb(0, 0, 0, 0.0243888);
   }
 
   .sidebar-footer-wrapper {
@@ -29,9 +29,5 @@ body.has-sidebar-page {
 }
 
 .desktop-view .sidebar-footer-wrapper .sidebar-footer-container::before {
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(var(--secondary), 1)
-  );
+  background: linear-gradient(to bottom, transparent, rgb(var(--secondary), 1));
 }

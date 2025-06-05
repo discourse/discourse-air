@@ -37,7 +37,7 @@ html body.has-sidebar-page.has-full-page-chat {
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (width <= 1366px) {
   .has-full-page-chat #main-outlet {
     width: 100%;
   }
