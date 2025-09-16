@@ -638,3 +638,86 @@ html body #main-outlet {
 .title-voting {
   padding-left: 14px;
 }
+
+
+/* --- Custom landing styles (append to common/common.scss) --- */
+
+.custom-landing-root {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+  background: linear-gradient(180deg, #0f172a 0%, #071129 100%);
+  color: white;
+  padding: 32px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.custom-landing {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 16px;
+  text-align: center;
+  outline: none;
+}
+
+.custom-landing h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.05;
+}
+
+.custom-landing .lead {
+  font-size: 1.05rem;
+  margin-bottom: 1.4rem;
+  color: rgba(255,255,255,0.92);
+}
+
+.landing-ctas {
+  margin-top: 1rem;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.cta.secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+/* "Go to forum" small note */
+.skip-note {
+  margin-top: 18px;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+}
+
+/* hidden state */
+.custom-landing-root.hidden { display: none !important; }
+
+/* optional: when landing is active, prevent body scroll */
+.custom-landing-active body {
+  overflow: hidden;
+}
+
+/* responsive tweaks */
+@media (max-width: 720px) {
+  .custom-landing h1 { font-size: 1.8rem; }
+  .custom-landing .lead { font-size: 0.98rem; }
+}
