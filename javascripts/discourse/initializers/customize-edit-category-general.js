@@ -5,7 +5,7 @@ export default {
   name: "customize-edit-category-general",
 
   initialize() {
-    withPluginApi("0.8.14", (api) => {
+    withPluginApi((api) => {
       api.modifyClass("component:edit-category-general", {
         pluginId: "discourse-air",
 
