@@ -1,73 +1,71 @@
 @use "lib/viewport";
 
 // custom search banner customizations
-.welcome-banner {
-  &.--location-above-topic-content .custom-search-banner-wrap {
-    color: var(--primary);
+.welcome-banner.--location-above-topic-content .custom-search-banner-wrap {
+  color: var(--primary);
+}
+
+.custom-search-banner-wrap {
+  color: var(--secondary);
+
+  .custom-search-banner-headline,
+  h1 {
+    line-height: var(--line-height-small);
   }
 
-  .custom-search-banner-wrap {
-    color: var(--secondary);
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+  }
 
-    .custom-search-banner-headline,
-    h1 {
-      line-height: var(--line-height-small);
-    }
+  .btn {
+    height: 100%;
+  }
 
-    p {
-      margin-top: 0.5em;
-      margin-bottom: 2em;
-    }
+  .search-menu input[type="text"] {
+    border: 1px solid transparent;
+    border-radius: 0.25em;
+    min-height: 40px;
 
-    .btn {
-      height: 100%;
-    }
-
-    .search-menu input[type="text"] {
-      border: 1px solid transparent;
-      border-radius: 0.25em;
-      min-height: 40px;
-
-      &:focus {
-        outline: 3px solid rgb(var(--primary-rgb), 0.35);
-      }
-    }
-
-    .widget-link.show-help {
-      color: rgb(var(--primary-rgb), 0.75);
-      border-radius: 0.5em;
-      padding: 0.5em;
-      background-color: rgb(var(--secondary-rgb), 0.25);
-
-      &:hover {
-        color: var(--primary);
-      }
-    }
-
-    .search-menu .search-input {
-      border-color: var(--tertiary-hover);
-      outline: 1px solid var(--tertiary-hover);
-    }
-
-    .results {
-      top: 43px;
-      border-radius: 0.25em;
-    }
-
-    .search-context {
-      top: 3.25em;
-      right: 1em;
+    &:focus {
+      outline: 3px solid rgb(var(--primary-rgb), 0.35);
     }
   }
 
-  .search-input {
+  .widget-link.show-help {
+    color: rgb(var(--primary-rgb), 0.75);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    background-color: rgb(var(--secondary-rgb), 0.25);
+
+    &:hover {
+      color: var(--primary);
+    }
+  }
+
+  .search-menu .search-input {
+    border-color: var(--tertiary-hover);
+    outline: 1px solid var(--tertiary-hover);
+  }
+
+  .results {
+    top: 43px;
     border-radius: 0.25em;
   }
 
-  .display-search-banner {
-    #main-outlet {
-      padding-top: 2em;
-    }
+  .search-context {
+    top: 3.25em;
+    right: 1em;
+  }
+}
+
+.search-input {
+  border-radius: 0.25em;
+}
+
+.display-search-banner {
+  #main-outlet {
+    padding-top: 2em;
   }
 }
 
