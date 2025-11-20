@@ -1,27 +1,21 @@
 @use "lib/viewport";
 
 // custom search banner customizations
+.welcome-banner.--location-above-topic-content .custom-search-banner-wrap {
+  color: var(--primary);
+}
+
 .custom-search-banner-wrap {
-  margin: 0 auto !important;
-  max-width: unset;
   color: var(--secondary);
 
   .custom-search-banner-headline,
   h1 {
     line-height: var(--line-height-small);
-
-    @include viewport.from(lg) {
-      font-size: 4em;
-    }
   }
 
   p {
     margin-top: 0.5em;
     margin-bottom: 2em;
-
-    @include viewport.from(lg) {
-      font-size: var(--font-up-1);
-    }
   }
 
   .btn {
@@ -240,25 +234,6 @@ div.ac-wrap {
 
 .drop-down-mode .d-header-icons .active .icon:hover {
   border: 1px solid transparent;
-}
-
-.menu-panel .widget-link:hover,
-.menu-panel .widget-link:focus,
-.menu-panel .categories-link:hover,
-.menu-panel .categories-link:focus {
-  background-color: rgb(var(--tertiary-rgb), 0.5);
-}
-
-.btn:not(.themes-tab, .components-tab),
-.select-kit.dropdown-select-box .dropdown-select-box-header {
-  border-radius: 8px;
-  border: 1px solid transparent;
-}
-
-.post-admin-menu.popup-menu {
-  .btn.widget-button {
-    border-radius: 0;
-  }
 }
 
 .unread-high-priority-notifications {
