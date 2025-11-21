@@ -44,11 +44,11 @@ Once this is done, users should be able to choose between two color schemes as t
 
 ---
 
-## Discourse Search Banner
+## Welcome Banner
 
-In the options for the `discourse-search-banner` theme component, the `plugin-outlet` options needs to be set to **BELOW-SITE-HEADER** for this theme to render properly.
+On the Welcome banner admin page `https://discourse.jordanvidrine.com/admin/config/welcome-banner`, set **Location** to **Below site header** to ensure the theme renders correctly.
 
-![image](https://user-images.githubusercontent.com/5862206/214545774-ed8f1322-9a95-4958-bba0-adf7ff6dea3f.png)
+\<image link\>
 
 ---
 

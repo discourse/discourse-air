@@ -4,8 +4,7 @@
   "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
   "components": [
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-clickable-topic.git"
   ],
   "modifiers": {
     "serialize_topic_excerpts": true
