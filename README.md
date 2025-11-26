@@ -1,27 +1,22 @@
-<!-- Describe this theme/component in one or two sentences -->
-
 A clean & modern theme with a handful of theme-components included to enhance your forum!
-
-<!-- Add screenshots (if applicable) -->
 
 **Light Mode**
 
-![image](https://user-images.githubusercontent.com/5862206/214545439-85410d82-9565-4e00-8b23-b2d69a0ee1eb.png)
+![light mode](screenshots/light.png)
 
 **Dark Mode**
 
-![image](https://user-images.githubusercontent.com/5862206/214545506-f44d6165-4f79-416e-a89c-548482d04cea.png)
+![dark mode](screenshots/dark.png)
 
 **Categories Page**
 
-![image](https://user-images.githubusercontent.com/5862206/214545568-76d38925-55a6-4359-b1c6-bf1010706132.png)
+![categories page](screenshots/categories-page.png)
 
 This theme includes a handful of components to enhance your forum as well.
 
 - Dark Light Scheme Toggle
-- Clickable Topics
+- [Clickable Topics](https://meta.discourse.org/t/clickable-topic/183339)
 - Discourse Loading Slider
-- Discourse Search Banner
 - Modern Category + Group Boxes
 
 > :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
@@ -32,33 +27,33 @@ This theme includes a handful of components to enhance your forum as well.
 
 ### Dark Light Scheme Toggle
 
-![image](https://user-images.githubusercontent.com/5862206/214545622-af847fa5-b4ae-4308-9fe2-ddd66eb62cc8.png)
+![toggle dark light schemes](screenshots/toggle-dark-light-schemes.png)
 
-For this to work properly, at least 2 color scheme choices need to be enabled in your `https://discourse.jordanvidrine.com/admin/customize/colors` area. At least two colors need to have `color scheme can be selected by users` enabled.
+For this to work properly, at least 2 color scheme choices need to be enabled on the **Color palettes** admin page (`/admin/customize/colors`). At least two colors need to have `color scheme can be selected by users` enabled.
 
-![image](https://user-images.githubusercontent.com/5862206/214545647-e0544474-b6bf-4b9c-8c64-6a8bfa6ba83a.png)
+![color palettes](screenshots/color-palettes.png)
 
 Once this is done, users should be able to choose between two color schemes as their `light` and `dark` preferences in their user preferences interface menu.
 
-![image](https://user-images.githubusercontent.com/5862206/214545707-170a6b88-8ccd-4d31-af59-f0834a4fad3c.png)
+![user interface preferences](screenshots/user-interface-preferences.png)
 
 ---
 
 ## Welcome Banner
 
-On the Welcome banner admin page `https://discourse.jordanvidrine.com/admin/config/welcome-banner`, set **Location** to **Below site header** to ensure the theme renders correctly.
+On the **Welcome banner** admin page (`/admin/config/welcome-banner`), set **Location** to **Below site header** to ensure the theme renders correctly.
 
-\<image link\>
+![welcome banner location setting](screenshots/welcome-banner-location-setting.png)
 
 ---
 
 ## Modern Category + Group Boxes
 
-This theme component requires your categories to use the **CATEGORY BOXES WITH SUBCATEGORIES** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
+This theme component requires your categories to use the **Boxes with Subcategories** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
 
-![image](https://user-images.githubusercontent.com/5862206/214545903-c4bd61b9-1893-48e0-84e7-502efc26c46d.png)
+![desktop category page style](screenshots/desktop-category-page-style.png)
 
-This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, I have only allowed up to 5 headings to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
+This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, up to 5 headings are allowed to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
 
 ---
 
