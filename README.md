@@ -12,12 +12,10 @@ A clean & modern theme with a handful of theme-components included to enhance yo
 
 ![categories page](images/categories-page.png)
 
-This theme includes a handful of components to enhance your forum as well.
+This theme includes a handful of components to enhance your forum as well:
 
-- Dark Light Scheme Toggle
-- [Clickable Topics](https://meta.discourse.org/t/clickable-topic/183339)
-- Discourse Loading Slider
-- Modern Category + Group Boxes
+* [Clickable Topics](https://meta.discourse.org/t/clickable-topic/183339)
+* [Modern Category + Group Boxes](https://github.com/discourse/discourse-minimal-category-boxes)
 
 > :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
