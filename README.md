@@ -10,7 +10,7 @@ A clean & modern theme with a handful of theme-components included to enhance yo
 
 **Categories Page**
 
-![categories page](screenshots/categories-page.png)
+![categories page](images/categories-page.png)
 
 This theme includes a handful of components to enhance your forum as well.
 
@@ -27,15 +27,15 @@ This theme includes a handful of components to enhance your forum as well.
 
 ### Dark Light Scheme Toggle
 
-![toggle dark light schemes](screenshots/toggle-dark-light-schemes.png)
+![toggle dark light schemes](images/toggle-dark-light-schemes.png)
 
 For this to work properly, at least 2 color scheme choices need to be enabled on the **Color palettes** admin page (`/admin/customize/colors`). At least two colors need to have `color scheme can be selected by users` enabled.
 
-![color palettes](screenshots/color-palettes.png)
+![color palettes](images/color-palettes.png)
 
 Once this is done, users should be able to choose between two color schemes as their `light` and `dark` preferences in their user preferences interface menu.
 
-![user interface preferences](screenshots/user-interface-preferences.png)
+![user interface preferences](images/user-interface-preferences.png)
 
 ---
 
@@ -43,7 +43,7 @@ Once this is done, users should be able to choose between two color schemes as t
 
 On the **Welcome banner** admin page (`/admin/config/welcome-banner`), set **Location** to **Below site header** to ensure the theme renders correctly.
 
-![welcome banner location setting](screenshots/welcome-banner-location-setting.png)
+![welcome banner location setting](images/welcome-banner-location-setting.png)
 
 ---
 
@@ -51,7 +51,7 @@ On the **Welcome banner** admin page (`/admin/config/welcome-banner`), set **Loc
 
 This theme component requires your categories to use the **Boxes with Subcategories** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
 
-![desktop category page style](screenshots/desktop-category-page-style.png)
+![desktop category page style](images/desktop-category-page-style.png)
 
 This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, up to 5 headings are allowed to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
 
