@@ -39,7 +39,7 @@ Once this is done, users should be able to choose between two color palettes as 
 
 Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to edit Air theme.
 
-- in **Dark color palette** dropdown select `sublime-dark`
+- in **Dark color palette** dropdown select `air-dark`
 
   ![theme dark color palette](/images/theme-dark-color-palette.webp)
 
