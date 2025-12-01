@@ -27,11 +27,11 @@ This theme includes a couple of theme components to enhance your forum, as well:
 
 ![toggle dark light mode](images/toggle-dark-light-mode.webp)
 
-The mode toggle will be shown at the bottom of sidebar, once at least 2 color palette choices are enabled on the **Color palettes** admin page (`/admin/config/colors`). At least two colors need to have `Color palette can be selected by users` enabled.
+The mode toggle (image above) will be shown at the bottom of sidebar, once at least 2 color palette choices are enabled on the **Color palettes** admin page (`/admin/config/colors`). At least two colors need to have `Color palette can be selected by users` enabled:
 
 ![color palettes](images/color-palettes.webp)
 
-Once this is done, users should be able to choose between two color palettes as their `light` and `dark` preferences in their user preferences interface page (`/my/preferences/interface`).
+Once this is done, users should be able to choose between two color palettes as their `light` and `dark` preferences in their user preferences interface page (`/my/preferences/interface`):
 
 ![user interface preferences](images/user-interface-preferences.webp)
 
@@ -45,19 +45,21 @@ Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to
 
 ## Welcome Banner
 
-On the **Welcome banner** admin page (`/admin/config/welcome-banner`), set **Location** to **Below site header** to ensure the theme renders correctly.
+Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
 
-![welcome banner location setting](images/welcome-banner-location-setting.webp)
+- in **Location** dropdown select `Below site header`
 
----
+  ![welcome banner location setting](images/welcome-banner-location-setting.webp)
 
 ## Modern Category + Group Boxes
 
-This theme component requires your categories to use the **Boxes with Subcategories** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
+Go to **Admin > Interface & layout** (`/admin/config/interface`) page.
 
-![desktop category page style](images/desktop-category-page-style.webp)
+- in **Desktop category page style** dropdown select `Boxes with Subcategories`
 
-This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, up to 5 headings are allowed to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
+  ![desktop category page style](images/desktop-category-page-style.webp)
+
+This theme component allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, up to 5 headings are allowed to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
 
 ---
 
