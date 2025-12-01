@@ -1,47 +1,53 @@
-A clean & modern theme with a handful of theme-components included to enhance your forum!
+A clean & modern theme with a couple of theme components included to enhance your forum!
 
 **Light Mode**
 
-![light mode](screenshots/light.png)
+![light mode](screenshots/light.webp)
 
 **Dark Mode**
 
-![dark mode](screenshots/dark.png)
+![dark mode](screenshots/dark.webp)
 
 **Categories Page**
 
-![categories page](images/categories-page.png)
+![categories page](images/categories-page.webp)
 
-This theme includes a handful of components to enhance your forum as well:
+This theme includes a couple of theme components to enhance your forum, as well:
 
-* [Clickable Topics](https://meta.discourse.org/t/clickable-topic/183339)
-* [Modern Category + Group Boxes](https://github.com/discourse/discourse-minimal-category-boxes)
-
-> :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
+- [Clickable Topics](https://meta.discourse.org/t/clickable-topic/183339)
+- [Modern Category + Group Boxes](https://github.com/discourse/discourse-minimal-category-boxes)
 
 ---
 
-# Tips
+## Theme configuration
+
+> :exclamation: Please follow theme configuration tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
 ### Dark Light Scheme Toggle
 
-![toggle dark light schemes](images/toggle-dark-light-schemes.png)
+![toggle dark light schemes](images/toggle-dark-light-schemes.webp)
 
-For this to work properly, at least 2 color scheme choices need to be enabled on the **Color palettes** admin page (`/admin/customize/colors`). At least two colors need to have `color scheme can be selected by users` enabled.
+The mode toggle will be shown at the bottom of sidebar, once at least 2 color scheme choices are enabled on the **Color palettes** admin page (`/admin/customize/colors`). At least two colors need to have `color scheme can be selected by users` enabled.
 
-![color palettes](images/color-palettes.png)
+![color palettes](images/color-palettes.webp)
 
 Once this is done, users should be able to choose between two color schemes as their `light` and `dark` preferences in their user preferences interface menu.
 
-![user interface preferences](images/user-interface-preferences.png)
+![user interface preferences](images/user-interface-preferences.webp)
 
----
+### Edit Theme
+
+Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to edit Air theme.
+
+- in **Dark color palette** dropdown select `sublime-dark`
+
+  ![theme dark color palette](/images/theme-dark-color-palette.webp)
 
 ## Welcome Banner
 
 On the **Welcome banner** admin page (`/admin/config/welcome-banner`), set **Location** to **Below site header** to ensure the theme renders correctly.
 
-![welcome banner location setting](images/welcome-banner-location-setting.png)
+![welcome banner location setting](images/welcome-banner-location-setting.webp)
 
 ---
 
@@ -49,7 +55,7 @@ On the **Welcome banner** admin page (`/admin/config/welcome-banner`), set **Loc
 
 This theme component requires your categories to use the **Boxes with Subcategories** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
 
-![desktop category page style](images/desktop-category-page-style.png)
+![desktop category page style](images/desktop-category-page-style.webp)
 
 This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, up to 5 headings are allowed to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
 
