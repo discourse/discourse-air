@@ -23,15 +23,15 @@ This theme includes a couple of theme components to enhance your forum, as well:
 
 > :exclamation: Please follow theme configuration tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
-### Dark Light Scheme Toggle
+### Dark Light Mode Toggle
 
-![toggle dark light schemes](images/toggle-dark-light-schemes.webp)
+![toggle dark light mode](images/toggle-dark-light-mode.webp)
 
-The mode toggle will be shown at the bottom of sidebar, once at least 2 color scheme choices are enabled on the **Color palettes** admin page (`/admin/customize/colors`). At least two colors need to have `color scheme can be selected by users` enabled.
+The mode toggle will be shown at the bottom of sidebar, once at least 2 color palette choices are enabled on the **Color palettes** admin page (`/admin/config/colors`). At least two colors need to have `Color palette can be selected by users` enabled.
 
 ![color palettes](images/color-palettes.webp)
 
-Once this is done, users should be able to choose between two color schemes as their `light` and `dark` preferences in their user preferences interface menu.
+Once this is done, users should be able to choose between two color palettes as their `light` and `dark` preferences in their user preferences interface page (`/my/preferences/interface`).
 
 ![user interface preferences](images/user-interface-preferences.webp)
 
