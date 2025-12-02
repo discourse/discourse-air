@@ -47,6 +47,10 @@ Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to
 
 Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
 
+- in **Enabled on themes...** dropdown select `Air Theme`
+
+  ![welcome banner themes](images/welcome-banner-enable.webp)
+
 - in **Location** dropdown select `Below site header`
 
   ![welcome banner location setting](images/welcome-banner-location-setting.webp)
