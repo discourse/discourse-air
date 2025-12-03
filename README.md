@@ -1,64 +1,69 @@
-<!-- Describe this theme/component in one or two sentences -->
-
-A clean & modern theme with a handful of theme-components included to enhance your forum!
-
-<!-- Add screenshots (if applicable) -->
+A clean & modern theme with a couple of theme components included to enhance your forum!
 
 **Light Mode**
 
-![image](https://user-images.githubusercontent.com/5862206/214545439-85410d82-9565-4e00-8b23-b2d69a0ee1eb.png)
+![light mode](screenshots/light.webp)
 
 **Dark Mode**
 
-![image](https://user-images.githubusercontent.com/5862206/214545506-f44d6165-4f79-416e-a89c-548482d04cea.png)
+![dark mode](screenshots/dark.webp)
 
 **Categories Page**
 
-![image](https://user-images.githubusercontent.com/5862206/214545568-76d38925-55a6-4359-b1c6-bf1010706132.png)
+![categories page](images/categories-page.webp)
 
-This theme includes a handful of components to enhance your forum as well.
+This theme includes a couple of theme components to enhance your forum, as well:
 
-- Dark Light Scheme Toggle
-- Clickable Topics
-- Discourse Loading Slider
-- Discourse Search Banner
-- Modern Category + Group Boxes
-
-> :exclamation: Please read through these tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
+- [Clickable Topics](https://meta.discourse.org/t/clickable-topic/183339)
+- [Modern Category + Group Boxes](https://github.com/discourse/discourse-minimal-category-boxes)
 
 ---
 
-# Tips
+## Theme configuration
 
-### Dark Light Scheme Toggle
+> :exclamation: Please follow theme configuration tips upon installation, as there are a couple of settings that **NEED TO BE ENABLED** for this to theme to render properly.
 
-![image](https://user-images.githubusercontent.com/5862206/214545622-af847fa5-b4ae-4308-9fe2-ddd66eb62cc8.png)
+### Dark Light Mode Toggle
 
-For this to work properly, at least 2 color scheme choices need to be enabled in your `https://discourse.jordanvidrine.com/admin/customize/colors` area. At least two colors need to have `color scheme can be selected by users` enabled.
+![toggle dark light mode](images/toggle-dark-light-mode.webp)
 
-![image](https://user-images.githubusercontent.com/5862206/214545647-e0544474-b6bf-4b9c-8c64-6a8bfa6ba83a.png)
+The mode toggle (image above) will be shown at the bottom of sidebar, once at least 2 color palette choices are enabled on the **Color palettes** admin page (`/admin/config/colors`). At least two colors need to have `Color palette can be selected by users` enabled:
 
-Once this is done, users should be able to choose between two color schemes as their `light` and `dark` preferences in their user preferences interface menu.
+![color palettes](images/color-palettes.webp)
 
-![image](https://user-images.githubusercontent.com/5862206/214545707-170a6b88-8ccd-4d31-af59-f0834a4fad3c.png)
+Once this is done, users should be able to choose between two color palettes as their `light` and `dark` preferences in their user preferences interface page (`/my/preferences/interface`):
 
----
+![user interface preferences](images/user-interface-preferences.webp)
 
-## Discourse Search Banner
+### Edit Theme
 
-In the options for the `discourse-search-banner` theme component, the `plugin-outlet` options needs to be set to **BELOW-SITE-HEADER** for this theme to render properly.
+Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to edit Air theme.
 
-![image](https://user-images.githubusercontent.com/5862206/214545774-ed8f1322-9a95-4958-bba0-adf7ff6dea3f.png)
+- in **Dark color palette** dropdown select `air-dark`
 
----
+  ![theme dark color palette](/images/theme-dark-color-palette.webp)
+
+## Welcome Banner
+
+Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
+
+- in **Enabled on themes...** dropdown select `Air Theme`
+
+  ![welcome banner themes](images/welcome-banner-enable.webp)
+
+- in **Location** dropdown select `Below site header`
+
+  ![welcome banner location setting](images/welcome-banner-location-setting.webp)
 
 ## Modern Category + Group Boxes
 
-This theme component requires your categories to use the **CATEGORY BOXES WITH SUBCATEGORIES** setting in your `/admin/site_settings/category/all_results?filter=categories` area.
+Go to **Admin > Interface & layout** (`/admin/config/interface`) page.
 
-![image](https://user-images.githubusercontent.com/5862206/214545903-c4bd61b9-1893-48e0-84e7-502efc26c46d.png)
+- in **Desktop category page style** dropdown select `Boxes with Subcategories`
 
-This theme component also allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, I have only allowed up to 5 headings to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
+  ![desktop category page style](images/desktop-category-page-style.webp)
+
+This theme component allows the forum admin to organize their category page with header titles, and choose which categories appear under each header. To keep things simple, up to 5 headings are allowed to be used. **If no categories + heading settings are chosen, all categories will render as they do above, this is the default rendering option.**
 
 ---
 

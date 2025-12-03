@@ -1,11 +1,11 @@
 {
   "name": "Air Theme",
+  "authors": "Discourse",
   "about_url": "https://meta.discourse.org/t/discourse-air-theme/197703",
   "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
   "components": [
-    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-minimal-category-boxes.git",
+    "https://github.com/discourse/discourse-clickable-topic.git"
   ],
   "modifiers": {
     "serialize_topic_excerpts": true
@@ -39,5 +39,5 @@
       "hover": "535353"
     }
   },
-  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
+  "screenshots": ["screenshots/light.webp", "screenshots/dark.webp"]
 }
