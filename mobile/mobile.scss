@@ -15,10 +15,9 @@
 html
   body:not(
     .static-tos,
-    .static-faq,
+    .static-guidelines,
     .static-privacy,
     .about-page,
-    .static-faq,
     .badges-page,
     .tags-page,
     .archetype-banner,
@@ -54,7 +53,7 @@ html body.static-tos #main-outlet,
 html body.no-ember #main-outlet,
 html body.static-privacy #main-outlet,
 html body.about-page #main-outlet,
-html body.static-faq #main-outlet,
+html body.static-guidelines #main-outlet,
 html body.tags-page #main-outlet,
 html body.badges-page #main-outlet,
 html body.archetype-banner #main-outlet,
@@ -68,7 +67,7 @@ html body.user-preferences-page #main-outlet,
 html body.user-messages-page #main-outlet,
 html body.user-notifications-page #main-outlet,
 html body.user-badges-page #main-outlet,
-html body.staff:not(.navigation-topics) #main-outlet {
+html body #main-outlet:has(.container.group) {
   border-radius: 0;
   width: calc(100% - 3em);
   background-color: var(--secondary);
