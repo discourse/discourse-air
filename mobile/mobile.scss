@@ -24,7 +24,6 @@ html
     .archetype-regular,
     .archetype-private_message,
     .admin-interface,
-    .edit-category,
     .user-summary-page,
     .user-activity-page,
     .user-invites-page,
@@ -67,11 +66,18 @@ html body.user-preferences-page #main-outlet,
 html body.user-messages-page #main-outlet,
 html body.user-notifications-page #main-outlet,
 html body.user-badges-page #main-outlet,
-html body #main-outlet:has(.container.group) {
+html body #main-outlet:has(.container.group),
+html body #main-outlet:has(.edit-category-page) {
   border-radius: 0;
   width: calc(100% - 3em);
   background-color: var(--secondary);
   margin-bottom: 0;
+}
+
+html body #main-outlet:has(.edit-category-page) {
+ margin-block: 1em;
+ padding: 1em;
+ border-radius: 8px;
 }
 
 .container.posts > .row {
