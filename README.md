@@ -41,7 +41,7 @@ Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to
 
 - in **Dark color palette** dropdown select `air-dark`
 
-  ![theme dark color palette](/images/theme-dark-color-palette.webp)
+  ![theme dark color palette](images/theme-dark-color-palette.webp)
 
 ## Welcome Banner
 

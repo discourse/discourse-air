@@ -1,19 +1,23 @@
-.showcased-categories-sidebar {
-  .two-topic-list-sidebar {
-    .btn-link.posts-map.badge-posts {
-      display: block;
+@use "lib/viewport";
+
+@include viewport.from(sm) {
+  .showcased-categories-sidebar {
+    .two-topic-list-sidebar {
+      .btn-link.posts-map.badge-posts {
+        display: block;
+      }
+
+      .topic-list .topic-list-item {
+        height: unset;
+      }
+
+      .topic-excerpt {
+        display: none;
+      }
     }
 
-    .topic-list .topic-list-item {
-      height: unset;
+    .full-width .contents .topic-list {
+      display: unset;
     }
-
-    .topic-excerpt {
-      display: none;
-    }
-  }
-
-  .full-width .contents .topic-list {
-    display: unset;
   }
 }

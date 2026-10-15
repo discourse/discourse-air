@@ -1,0 +1,37 @@
+@use "lib/viewport";
+
+@include viewport.from(sm) {
+  // sidebar
+  #main-outlet-wrapper {
+    .sidebar-wrapper {
+      margin: 30px 0 50px;
+      background-color: var(--secondary);
+      border-radius: 1em;
+      top: calc(var(--header-offset) + 30px);
+      height: calc(100vh - (var(--header-offset) + 80px));
+      box-shadow: var(--air-card-shadow);
+    }
+
+    .sidebar-footer-wrapper {
+      background: var(--secondary);
+    }
+  }
+
+  body.has-sidebar-page {
+    #main-outlet-wrapper {
+      padding-left: 8px;
+    }
+
+    #main-outlet {
+      max-width: unset;
+    }
+  }
+
+  .sidebar-footer-wrapper .sidebar-footer-container::before {
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--secondary-rgb), 1)
+    );
+  }
+}
